@@ -79,6 +79,14 @@ public class DashBoard2 extends javax.swing.JFrame {
         jButton10 = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
+        criminalborad = new javax.swing.JPanel();
+        jLabel20 = new javax.swing.JLabel();
+        jLabel21 = new javax.swing.JLabel();
+        addPol1 = new javax.swing.JButton();
+        jButton11 = new javax.swing.JButton();
+        jButton12 = new javax.swing.JButton();
+        jButton13 = new javax.swing.JButton();
+        jButton14 = new javax.swing.JButton();
 
         jPanel3.setBackground(new java.awt.Color(44, 133, 193));
 
@@ -490,6 +498,61 @@ public class DashBoard2 extends javax.swing.JFrame {
 
         policeboard.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 380));
 
+        criminalborad.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel20.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel20.setText("Police Station Management");
+        criminalborad.add(jLabel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        jLabel21.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel21.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel21.setText("Version 1.0");
+        criminalborad.add(jLabel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
+
+        addPol1.setText("Add New Criminal");
+        addPol1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addPol1ActionPerformed(evt);
+            }
+        });
+        criminalborad.add(addPol1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
+
+        jButton11.setText("Police Information Update");
+        jButton11.setActionCommand("Close Case");
+        jButton11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton11ActionPerformed(evt);
+            }
+        });
+        criminalborad.add(jButton11, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
+
+        jButton12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
+        jButton12.setText("Find Criminal");
+        jButton12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton12ActionPerformed(evt);
+            }
+        });
+        criminalborad.add(jButton12, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
+
+        jButton13.setText("Most Wanted List");
+        jButton13.setActionCommand("Close Case");
+        jButton13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton13ActionPerformed(evt);
+            }
+        });
+        criminalborad.add(jButton13, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
+
+        jButton14.setText("prisoned Criminal");
+        jButton14.setActionCommand("Close Case");
+        jButton14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton14ActionPerformed(evt);
+            }
+        });
+        criminalborad.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
+
         javax.swing.GroupLayout menuItemLayout = new javax.swing.GroupLayout(menuItem);
         menuItem.setLayout(menuItemLayout);
         menuItemLayout.setHorizontalGroup(
@@ -499,6 +562,11 @@ public class DashBoard2 extends javax.swing.JFrame {
                 .addComponent(caseborad, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addComponent(policeboard, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(menuItemLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(criminalborad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
         menuItemLayout.setVerticalGroup(
             menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -507,6 +575,11 @@ public class DashBoard2 extends javax.swing.JFrame {
                 .addComponent(caseborad, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addComponent(policeboard, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(menuItemLayout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(criminalborad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         jPanel1.add(menuItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, 830, 530));
@@ -598,6 +671,26 @@ public class DashBoard2 extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton10ActionPerformed
 
+    private void addPol1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addPol1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_addPol1ActionPerformed
+
+    private void jButton11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton11ActionPerformed
+
+    private void jButton12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton12ActionPerformed
+
+    private void jButton13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton13ActionPerformed
+
+    private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton14ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -637,10 +730,12 @@ public class DashBoard2 extends javax.swing.JFrame {
     private javax.swing.JLabel activity;
     private javax.swing.JLabel addNewAdmin;
     private javax.swing.JButton addPol;
+    private javax.swing.JButton addPol1;
     private javax.swing.JLabel caseInfo;
     private javax.swing.JPanel caseborad;
     private javax.swing.JLabel comInfo;
     private javax.swing.JLabel criminalInfo;
+    private javax.swing.JPanel criminalborad;
     private javax.swing.JLabel dash;
     private javax.swing.JPanel dashboard;
     private javax.swing.JLabel dumInfo;
@@ -648,6 +743,10 @@ public class DashBoard2 extends javax.swing.JFrame {
     private javax.swing.JLabel generalDiary;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
@@ -667,6 +766,8 @@ public class DashBoard2 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
