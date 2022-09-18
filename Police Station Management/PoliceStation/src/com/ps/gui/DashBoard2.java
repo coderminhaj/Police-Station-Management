@@ -72,7 +72,7 @@ public class DashBoard2 extends javax.swing.JFrame {
         policeboard = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
-        jButton6 = new javax.swing.JButton();
+        addPol = new javax.swing.JButton();
         jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
@@ -409,13 +409,13 @@ public class DashBoard2 extends javax.swing.JFrame {
         jLabel19.setText("Version 1.0");
         policeboard.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
 
-        jButton6.setText("Add New Police");
-        jButton6.addActionListener(new java.awt.event.ActionListener() {
+        addPol.setText("Add New Police");
+        addPol.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton6ActionPerformed(evt);
+                addPolActionPerformed(evt);
             }
         });
-        policeboard.add(jButton6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
+        policeboard.add(addPol, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
 
         jButton7.setText("Police Information Update");
         jButton7.setActionCommand("Close Case");
@@ -576,9 +576,11 @@ public class DashBoard2 extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton5ActionPerformed
 
-    private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed
+    private void addPolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addPolActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton6ActionPerformed
+        addPolice ap = new addPolice();
+        ap.setVisible(true);
+    }//GEN-LAST:event_addPolActionPerformed
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         // TODO add your handling code here:
@@ -634,6 +636,7 @@ public class DashBoard2 extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel activity;
     private javax.swing.JLabel addNewAdmin;
+    private javax.swing.JButton addPol;
     private javax.swing.JLabel caseInfo;
     private javax.swing.JPanel caseborad;
     private javax.swing.JLabel comInfo;
@@ -649,7 +652,6 @@ public class DashBoard2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
     private javax.swing.JButton jButton9;
