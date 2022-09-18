@@ -1,4 +1,7 @@
 package com.ps.gui;
+
+
+
 public class DashBoard2 extends javax.swing.JFrame {
 
     /**
@@ -6,6 +9,8 @@ public class DashBoard2 extends javax.swing.JFrame {
      */
     public DashBoard2() {
         initComponents();
+        
+        setLocationRelativeTo(null);
     }
 
     /**
@@ -24,7 +29,6 @@ public class DashBoard2 extends javax.swing.JFrame {
         comInfo = new javax.swing.JLabel();
         userName = new javax.swing.JLabel();
         activity = new javax.swing.JLabel();
-        profileImg = new javax.swing.JLabel();
         dash = new javax.swing.JLabel();
         caseInfo = new javax.swing.JLabel();
         policeInfo = new javax.swing.JLabel();
@@ -36,39 +40,87 @@ public class DashBoard2 extends javax.swing.JFrame {
         editProfile = new javax.swing.JLabel();
         addNewAdmin = new javax.swing.JLabel();
         logOut = new javax.swing.JLabel();
+        profileImg1 = new javax.swing.JLabel();
+        others1 = new javax.swing.JLabel();
+        others2 = new javax.swing.JLabel();
+        userName1 = new javax.swing.JLabel();
+        userName3 = new javax.swing.JLabel();
+        userName5 = new javax.swing.JLabel();
+        userName6 = new javax.swing.JLabel();
+        userName7 = new javax.swing.JLabel();
+        userName8 = new javax.swing.JLabel();
+        userName9 = new javax.swing.JLabel();
+        userName10 = new javax.swing.JLabel();
+        userName11 = new javax.swing.JLabel();
         menuItem = new javax.swing.JPanel();
         dashboard = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jPanel2 = new javax.swing.JPanel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
+        jLabel32 = new javax.swing.JLabel();
+        jPanel10 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
-        jPanel6 = new javax.swing.JPanel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jPanel9 = new javax.swing.JPanel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jPanel8 = new javax.swing.JPanel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jPanel7 = new javax.swing.JPanel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
+        jLabel33 = new javax.swing.JLabel();
+        jLabel34 = new javax.swing.JLabel();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jLabel37 = new javax.swing.JLabel();
+        jPanel12 = new javax.swing.JPanel();
+        jLabel38 = new javax.swing.JLabel();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        jPanel13 = new javax.swing.JPanel();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jLabel43 = new javax.swing.JLabel();
+        jPanel14 = new javax.swing.JPanel();
+        jLabel44 = new javax.swing.JLabel();
+        jLabel45 = new javax.swing.JLabel();
+        jLabel46 = new javax.swing.JLabel();
+        jPanel15 = new javax.swing.JPanel();
+        jLabel47 = new javax.swing.JLabel();
+        jLabel48 = new javax.swing.JLabel();
+        jLabel49 = new javax.swing.JLabel();
+        jPanel16 = new javax.swing.JPanel();
+        jLabel50 = new javax.swing.JLabel();
+        jLabel51 = new javax.swing.JLabel();
+        jLabel52 = new javax.swing.JLabel();
+        jPanel17 = new javax.swing.JPanel();
+        jLabel53 = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        jLabel55 = new javax.swing.JLabel();
+        jPanel18 = new javax.swing.JPanel();
+        jLabel56 = new javax.swing.JLabel();
+        jLabel57 = new javax.swing.JLabel();
+        jLabel58 = new javax.swing.JLabel();
+        jPanel19 = new javax.swing.JPanel();
+        jLabel59 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        jLabel61 = new javax.swing.JLabel();
+        jPanel20 = new javax.swing.JPanel();
+        jLabel62 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
         caseborad = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
-        jLabel2 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
         jButton5 = new javax.swing.JButton();
+        jLabel27 = new javax.swing.JLabel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        jTable6 = new javax.swing.JTable();
+        jLabel29 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTable7 = new javax.swing.JTable();
+        jLabel30 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTable8 = new javax.swing.JTable();
         policeboard = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
@@ -87,6 +139,57 @@ public class DashBoard2 extends javax.swing.JFrame {
         jButton12 = new javax.swing.JButton();
         jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        jTable3 = new javax.swing.JTable();
+        jLabel24 = new javax.swing.JLabel();
+        jLabel25 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        jTable4 = new javax.swing.JTable();
+        jLabel26 = new javax.swing.JLabel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        jTable5 = new javax.swing.JTable();
+        gdboard = new javax.swing.JPanel();
+        jLabel22 = new javax.swing.JLabel();
+        jLabel23 = new javax.swing.JLabel();
+        jButton15 = new javax.swing.JButton();
+        jButton16 = new javax.swing.JButton();
+        jButton17 = new javax.swing.JButton();
+        jLabel65 = new javax.swing.JLabel();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        jTable9 = new javax.swing.JTable();
+        dumpboard = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel66 = new javax.swing.JLabel();
+        jLabel67 = new javax.swing.JLabel();
+        jButton19 = new javax.swing.JButton();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        jLabel68 = new javax.swing.JLabel();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        jTable10 = new javax.swing.JTable();
+        vehicleboard = new javax.swing.JPanel();
+        jPanel6 = new javax.swing.JPanel();
+        jLabel69 = new javax.swing.JLabel();
+        jLabel70 = new javax.swing.JLabel();
+        jButton22 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
+        jButton24 = new javax.swing.JButton();
+        jLabel71 = new javax.swing.JLabel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        jTable11 = new javax.swing.JTable();
+        armsboard = new javax.swing.JPanel();
+        jPanel7 = new javax.swing.JPanel();
+        jLabel72 = new javax.swing.JLabel();
+        jLabel73 = new javax.swing.JLabel();
+        jButton25 = new javax.swing.JButton();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        jTable12 = new javax.swing.JTable();
+        jLabel74 = new javax.swing.JLabel();
+        jButton26 = new javax.swing.JButton();
+        jButton27 = new javax.swing.JButton();
+        othersboard = new javax.swing.JPanel();
+        jLabel28 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
 
         jPanel3.setBackground(new java.awt.Color(44, 133, 193));
 
@@ -131,28 +234,30 @@ public class DashBoard2 extends javax.swing.JFrame {
         menubar.add(comInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 30));
 
         userName.setForeground(new java.awt.Color(255, 255, 255));
-        userName.setText("MinhajulIslam");
-        menubar.add(userName, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 40, -1, -1));
+        userName.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Dashboard_1.png"))); // NOI18N
+        menubar.add(userName, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
 
         activity.setForeground(new java.awt.Color(51, 255, 0));
         activity.setText("Online");
-        menubar.add(activity, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, -1, -1));
+        menubar.add(activity, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, -1, -1));
 
-        profileImg.setForeground(new java.awt.Color(255, 255, 255));
-        profileImg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system white/USER - M_48x48-32.png"))); // NOI18N
-        menubar.add(profileImg, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 50, 40));
-
-        dash.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        dash.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         dash.setForeground(new java.awt.Color(255, 255, 255));
         dash.setText("Dashboard");
         dash.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 dashMouseClicked(evt);
             }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                dashMouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                dashMouseExited(evt);
+            }
         });
-        menubar.add(dash, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 100, 150, -1));
+        menubar.add(dash, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 160, -1));
 
-        caseInfo.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        caseInfo.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         caseInfo.setForeground(new java.awt.Color(255, 255, 255));
         caseInfo.setText("Case Information");
         caseInfo.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -160,9 +265,9 @@ public class DashBoard2 extends javax.swing.JFrame {
                 caseInfoMouseClicked(evt);
             }
         });
-        menubar.add(caseInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, 150, -1));
+        menubar.add(caseInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, 160, -1));
 
-        policeInfo.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        policeInfo.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         policeInfo.setForeground(new java.awt.Color(255, 255, 255));
         policeInfo.setText("Police Information");
         policeInfo.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -170,52 +275,136 @@ public class DashBoard2 extends javax.swing.JFrame {
                 policeInfoMouseClicked(evt);
             }
         });
-        menubar.add(policeInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, 150, -1));
+        menubar.add(policeInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 160, -1));
 
-        criminalInfo.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        criminalInfo.setFont(new java.awt.Font("Segoe UI", 0, 17)); // NOI18N
         criminalInfo.setForeground(new java.awt.Color(255, 255, 255));
         criminalInfo.setText("Criminal Information");
-        menubar.add(criminalInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 150, -1));
+        criminalInfo.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                criminalInfoMouseClicked(evt);
+            }
+        });
+        menubar.add(criminalInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 160, -1));
 
-        generalDiary.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        generalDiary.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         generalDiary.setForeground(new java.awt.Color(255, 255, 255));
         generalDiary.setText("General Diary");
-        menubar.add(generalDiary, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 150, -1));
+        generalDiary.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                generalDiaryMouseClicked(evt);
+            }
+        });
+        menubar.add(generalDiary, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, 160, -1));
 
-        dumInfo.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        dumInfo.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         dumInfo.setForeground(new java.awt.Color(255, 255, 255));
         dumInfo.setText("Dumpyard");
-        menubar.add(dumInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 250, 150, -1));
+        dumInfo.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                dumInfoMouseClicked(evt);
+            }
+        });
+        menubar.add(dumInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 160, -1));
 
-        others.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        others.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         others.setForeground(new java.awt.Color(255, 255, 255));
         others.setText("Others");
-        menubar.add(others, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 280, 150, -1));
+        menubar.add(others, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 430, 160, -1));
 
-        personalInfo.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        personalInfo.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
         personalInfo.setForeground(new java.awt.Color(153, 153, 153));
         personalInfo.setText("Personal Information");
-        menubar.add(personalInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 330, 150, -1));
+        menubar.add(personalInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 460, 150, -1));
 
         editProfile.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         editProfile.setForeground(new java.awt.Color(255, 255, 255));
         editProfile.setText("Edit Your Profile");
-        menubar.add(editProfile, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 350, 100, -1));
+        menubar.add(editProfile, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 480, 110, -1));
 
         addNewAdmin.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         addNewAdmin.setForeground(new java.awt.Color(255, 255, 255));
         addNewAdmin.setText("Add New Admin");
-        menubar.add(addNewAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 370, 100, -1));
+        menubar.add(addNewAdmin, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 500, 100, -1));
 
         logOut.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         logOut.setForeground(new java.awt.Color(255, 255, 255));
         logOut.setText("Log Out");
-        menubar.add(logOut, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 390, 60, -1));
+        menubar.add(logOut, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 520, 60, -1));
+
+        profileImg1.setForeground(new java.awt.Color(255, 255, 255));
+        profileImg1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-user-80.png"))); // NOI18N
+        menubar.add(profileImg1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 80, 60));
+
+        others1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        others1.setForeground(new java.awt.Color(255, 255, 255));
+        others1.setText("Vehicle Information");
+        others1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                others1MouseClicked(evt);
+            }
+        });
+        others1.addInputMethodListener(new java.awt.event.InputMethodListener() {
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
+                others1CaretPositionChanged(evt);
+            }
+            public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
+            }
+        });
+        menubar.add(others1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 160, -1));
+
+        others2.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        others2.setForeground(new java.awt.Color(255, 255, 255));
+        others2.setText("Arms & Ammos");
+        others2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                others2MouseClicked(evt);
+            }
+        });
+        menubar.add(others2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 160, -1));
+
+        userName1.setForeground(new java.awt.Color(255, 255, 255));
+        userName1.setText("MinhajulIslam");
+        menubar.add(userName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 60, -1, -1));
+
+        userName3.setForeground(new java.awt.Color(255, 255, 255));
+        userName3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-police-24.png"))); // NOI18N
+        menubar.add(userName3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        userName5.setForeground(new java.awt.Color(255, 255, 255));
+        userName5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Vampire.png"))); // NOI18N
+        menubar.add(userName5, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+
+        userName6.setForeground(new java.awt.Color(255, 255, 255));
+        userName6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Account card.png"))); // NOI18N
+        menubar.add(userName6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+
+        userName7.setForeground(new java.awt.Color(255, 255, 255));
+        userName7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-modern-server-computer-stacked-on-each-other-24.png"))); // NOI18N
+        menubar.add(userName7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, -1, -1));
+
+        userName8.setForeground(new java.awt.Color(255, 255, 255));
+        userName8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Plaster.png"))); // NOI18N
+        menubar.add(userName8, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+
+        userName9.setForeground(new java.awt.Color(255, 255, 255));
+        userName9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Book of record.png"))); // NOI18N
+        menubar.add(userName9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, -1));
+
+        userName10.setForeground(new java.awt.Color(255, 255, 255));
+        userName10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-police-car-24.png"))); // NOI18N
+        menubar.add(userName10, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 350, -1, -1));
+
+        userName11.setForeground(new java.awt.Color(255, 255, 255));
+        userName11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-sports-gun-24.png"))); // NOI18N
+        menubar.add(userName11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, -1, -1));
 
         jPanel1.add(menubar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 560));
 
         menuItem.setBackground(new java.awt.Color(204, 204, 204));
+        menuItem.setLayout(new java.awt.CardLayout());
 
+        dashboard.setBackground(new java.awt.Color(234, 238, 243));
         dashboard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
@@ -227,88 +416,249 @@ public class DashBoard2 extends javax.swing.JFrame {
         jLabel3.setText("Version 1.0");
         dashboard.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
 
-        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel7.setText("Total Vehicle");
-        jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, -1, -1));
-
-        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel8.setText("250");
-        jPanel2.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 115, 90));
-
-        dashboard.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(595, 89, 211, 136));
-
-        jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
         jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel9.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel9.setText("Total Case");
-        jPanel5.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, -1, -1));
+        jLabel2.setBackground(new java.awt.Color(0, 147, 87));
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel2.setOpaque(true);
+        jPanel5.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
 
-        jLabel10.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel9.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel9.setText("SOLVED");
+        jPanel5.add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel32.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel32.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel32.setText("250");
+        jPanel5.add(jLabel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel10.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel10.setBackground(new java.awt.Color(102, 204, 255));
         jLabel10.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel10.setText("250");
-        jPanel5.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 115, 90));
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel10.setOpaque(true);
+        jPanel10.add(jLabel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
 
-        dashboard.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 89, 211, 136));
+        jLabel33.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel33.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel33.setText("TOTAL CASE");
+        jPanel10.add(jLabel33, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
 
-        jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel34.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel34.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel34.setText("250");
+        jPanel10.add(jLabel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
 
-        jLabel11.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel11.setText("Total Police");
-        jPanel6.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, -1, -1));
+        jPanel5.add(jPanel10, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
 
-        jLabel12.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel12.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel12.setText("250");
-        jPanel6.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 115, 90));
+        dashboard.add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 110, 230, 100));
 
-        dashboard.add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(308, 89, 211, 136));
+        jPanel11.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel35.setBackground(new java.awt.Color(0, 204, 204));
+        jLabel35.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel35.setOpaque(true);
+        jPanel11.add(jLabel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
 
-        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel17.setText("Total GD");
-        jPanel9.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, -1, -1));
+        jLabel36.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel36.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel36.setText("POLICE");
+        jPanel11.add(jLabel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
 
-        jLabel18.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel18.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel18.setText("250");
-        jPanel9.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 115, 90));
+        jLabel37.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel37.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel37.setText("250");
+        jPanel11.add(jLabel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
 
-        dashboard.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 211, 136));
+        jPanel12.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        jLabel38.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel38.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel38.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel38.setOpaque(true);
+        jPanel12.add(jLabel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
 
-        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel15.setText("Total Case");
-        jPanel8.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, -1, -1));
+        jLabel39.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel39.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel39.setText("TOTAL CASE");
+        jPanel12.add(jLabel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
 
-        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel16.setText("250");
-        jPanel8.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 115, 90));
+        jLabel40.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel40.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel40.setText("250");
+        jPanel12.add(jLabel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
 
-        dashboard.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 300, 211, 136));
+        jPanel11.add(jPanel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
 
-        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+        dashboard.add(jPanel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 300, 230, 100));
 
-        jLabel13.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel13.setText("Total Case");
-        jPanel7.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, -1, -1));
+        jPanel13.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel14.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel14.setText("250");
-        jPanel7.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 115, 90));
+        jLabel41.setBackground(new java.awt.Color(153, 51, 255));
+        jLabel41.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel41.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel41.setOpaque(true);
+        jPanel13.add(jLabel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
 
-        dashboard.add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 300, 211, 136));
+        jLabel42.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel42.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel42.setText("VEHICLE");
+        jPanel13.add(jLabel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
 
-        caseborad.setBackground(new java.awt.Color(255, 204, 204));
+        jLabel43.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel43.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel43.setText("250");
+        jPanel13.add(jLabel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel14.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel44.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel44.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel44.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel44.setOpaque(true);
+        jPanel14.add(jLabel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel45.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel45.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel45.setText("TOTAL CASE");
+        jPanel14.add(jLabel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel46.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel46.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel46.setText("250");
+        jPanel14.add(jLabel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel13.add(jPanel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        dashboard.add(jPanel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 230, 100));
+
+        jPanel15.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel47.setBackground(new java.awt.Color(234, 87, 55));
+        jLabel47.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel47.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel47.setOpaque(true);
+        jPanel15.add(jLabel47, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel48.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel48.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel48.setText("PENDING");
+        jPanel15.add(jLabel48, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel49.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel49.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel49.setText("250");
+        jPanel15.add(jLabel49, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel16.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel50.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel50.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel50.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel50.setOpaque(true);
+        jPanel16.add(jLabel50, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel51.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel51.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel51.setText("TOTAL CASE");
+        jPanel16.add(jLabel51, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel52.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel52.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel52.setText("250");
+        jPanel16.add(jLabel52, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel15.add(jPanel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        dashboard.add(jPanel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 110, 230, 100));
+
+        jPanel17.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel53.setBackground(new java.awt.Color(0, 174, 245));
+        jLabel53.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel53.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel53.setOpaque(true);
+        jPanel17.add(jLabel53, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel54.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel54.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel54.setText("TOTAL CASE");
+        jPanel17.add(jLabel54, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel55.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel55.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel55.setText("250");
+        jPanel17.add(jLabel55, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel18.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel56.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel56.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel56.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel56.setOpaque(true);
+        jPanel18.add(jLabel56, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel57.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel57.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel57.setText("TOTAL CASE");
+        jPanel18.add(jLabel57, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel58.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel58.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel58.setText("250");
+        jPanel18.add(jLabel58, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel17.add(jPanel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        dashboard.add(jPanel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 230, 100));
+
+        jPanel19.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel59.setBackground(new java.awt.Color(255, 0, 255));
+        jLabel59.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel59.setOpaque(true);
+        jPanel19.add(jLabel59, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel60.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel60.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel60.setText("GUNS");
+        jPanel19.add(jLabel60, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel61.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel61.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel61.setText("250");
+        jPanel19.add(jLabel61, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel20.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel62.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel62.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel62.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel62.setOpaque(true);
+        jPanel20.add(jLabel62, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel63.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel63.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel63.setText("TOTAL CASE");
+        jPanel20.add(jLabel63, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel64.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel64.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel64.setText("250");
+        jPanel20.add(jLabel64, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel19.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        dashboard.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 300, 230, 100));
+
+        menuItem.add(dashboard, "card2");
+
+        caseborad.setBackground(new java.awt.Color(234, 238, 243));
         caseborad.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
@@ -319,47 +669,6 @@ public class DashBoard2 extends javax.swing.JFrame {
         jLabel5.setForeground(new java.awt.Color(153, 153, 153));
         jLabel5.setText("Version 1.0");
         caseborad.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
-
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String [] {
-                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
-            }
-        ));
-        jScrollPane1.setViewportView(jTable1);
-
-        caseborad.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 380));
-
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel2.setText("Case List:");
-        caseborad.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
 
         jButton1.setText("Case Update");
         jButton1.setActionCommand("Close Case");
@@ -405,7 +714,132 @@ public class DashBoard2 extends javax.swing.JFrame {
         });
         caseborad.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
 
-        policeboard.setBackground(new java.awt.Color(204, 255, 255));
+        jLabel27.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel27.setText("Case List:");
+        caseborad.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
+
+        jTable6.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane6.setViewportView(jTable6);
+
+        caseborad.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 90));
+
+        jLabel29.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel29.setText("Pending Case:");
+        caseborad.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, -1, -1));
+
+        jTable7.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane7.setViewportView(jTable7);
+
+        caseborad.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 830, 90));
+
+        jLabel30.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel30.setText("Closed Case:");
+        caseborad.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, -1, -1));
+
+        jTable8.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane8.setViewportView(jTable8);
+
+        caseborad.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 420, 830, 90));
+
+        menuItem.add(caseborad, "card3");
+
+        policeboard.setBackground(new java.awt.Color(234, 238, 243));
         policeboard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel6.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
@@ -498,6 +932,9 @@ public class DashBoard2 extends javax.swing.JFrame {
 
         policeboard.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 380));
 
+        menuItem.add(policeboard, "card4");
+
+        criminalborad.setBackground(new java.awt.Color(234, 238, 243));
         criminalborad.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel20.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
@@ -553,36 +990,515 @@ public class DashBoard2 extends javax.swing.JFrame {
         });
         criminalborad.add(jButton14, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
 
-        javax.swing.GroupLayout menuItemLayout = new javax.swing.GroupLayout(menuItem);
-        menuItem.setLayout(menuItemLayout);
-        menuItemLayout.setHorizontalGroup(
-            menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(dashboard, javax.swing.GroupLayout.DEFAULT_SIZE, 830, Short.MAX_VALUE)
-            .addGroup(menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(caseborad, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(policeboard, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(menuItemLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(criminalborad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+        jTable3.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane3.setViewportView(jTable3);
+
+        criminalborad.add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 100));
+
+        jLabel24.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel24.setText("Criminal List:");
+        criminalborad.add(jLabel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 180, 30));
+
+        jLabel25.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel25.setText("Most Wanted Criminals:");
+        criminalborad.add(jLabel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 250, 220, 30));
+
+        jTable4.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane4.setViewportView(jTable4);
+
+        criminalborad.add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 280, 830, 100));
+
+        jLabel26.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel26.setText("Prisoned Criminals:");
+        criminalborad.add(jLabel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 390, 180, 30));
+
+        jTable5.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane5.setViewportView(jTable5);
+
+        criminalborad.add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 420, 830, 100));
+
+        menuItem.add(criminalborad, "card5");
+
+        gdboard.setBackground(new java.awt.Color(234, 238, 243));
+        gdboard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel22.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel22.setText("Police Station Management");
+        gdboard.add(jLabel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        jLabel23.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel23.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel23.setText("Version 1.0");
+        gdboard.add(jLabel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
+
+        jButton15.setText("Add New GD");
+        jButton15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton15ActionPerformed(evt);
+            }
+        });
+        gdboard.add(jButton15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
+
+        jButton16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
+        jButton16.setText("Find GD");
+        jButton16.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton16ActionPerformed(evt);
+            }
+        });
+        gdboard.add(jButton16, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
+
+        jButton17.setText("GD Update");
+        jButton17.setActionCommand("Close Case");
+        jButton17.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton17ActionPerformed(evt);
+            }
+        });
+        gdboard.add(jButton17, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
+
+        jLabel65.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel65.setText("General Diary List:");
+        gdboard.add(jLabel65, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 180, 30));
+
+        jTable9.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane9.setViewportView(jTable9);
+
+        gdboard.add(jScrollPane9, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 290));
+
+        menuItem.add(gdboard, "card6");
+
+        dumpboard.setBackground(new java.awt.Color(234, 238, 243));
+
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel66.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel66.setText("Police Station Management");
+        jPanel2.add(jLabel66, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        jLabel67.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel67.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel67.setText("Version 1.0");
+        jPanel2.add(jLabel67, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
+
+        jButton19.setText("New Dump Item");
+        jButton19.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton19ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButton19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
+
+        jButton20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
+        jButton20.setText("Find");
+        jButton20.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton20ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButton20, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
+
+        jButton21.setText("Update Item");
+        jButton21.setActionCommand("Close Case");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jButton21, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
+
+        jLabel68.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel68.setText("Dumping Vehicle List:");
+        jPanel2.add(jLabel68, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 180, 30));
+
+        jTable10.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane10.setViewportView(jTable10);
+
+        jPanel2.add(jScrollPane10, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 290));
+
+        javax.swing.GroupLayout dumpboardLayout = new javax.swing.GroupLayout(dumpboard);
+        dumpboard.setLayout(dumpboardLayout);
+        dumpboardLayout.setHorizontalGroup(
+            dumpboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-        menuItemLayout.setVerticalGroup(
-            menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(dashboard, javax.swing.GroupLayout.DEFAULT_SIZE, 530, Short.MAX_VALUE)
-            .addGroup(menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(caseborad, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addComponent(policeboard, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(menuItemLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                .addGroup(menuItemLayout.createSequentialGroup()
-                    .addGap(0, 0, Short.MAX_VALUE)
-                    .addComponent(criminalborad, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGap(0, 0, Short.MAX_VALUE)))
+        dumpboardLayout.setVerticalGroup(
+            dumpboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
+        menuItem.add(dumpboard, "card7");
+
+        vehicleboard.setBackground(new java.awt.Color(234, 238, 243));
+
+        jPanel6.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel69.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel69.setText("Police Station Management");
+        jPanel6.add(jLabel69, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        jLabel70.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel70.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel70.setText("Version 1.0");
+        jPanel6.add(jLabel70, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
+
+        jButton22.setText("Add Police Vehicle");
+        jButton22.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton22ActionPerformed(evt);
+            }
+        });
+        jPanel6.add(jButton22, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
+
+        jButton23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
+        jButton23.setText("Find");
+        jButton23.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton23ActionPerformed(evt);
+            }
+        });
+        jPanel6.add(jButton23, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
+
+        jButton24.setText("Update Item");
+        jButton24.setActionCommand("Close Case");
+        jButton24.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton24ActionPerformed(evt);
+            }
+        });
+        jPanel6.add(jButton24, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
+
+        jLabel71.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel71.setText("Police Vehicle List:");
+        jPanel6.add(jLabel71, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 180, 30));
+
+        jTable11.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane11.setViewportView(jTable11);
+
+        jPanel6.add(jScrollPane11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 290));
+
+        javax.swing.GroupLayout vehicleboardLayout = new javax.swing.GroupLayout(vehicleboard);
+        vehicleboard.setLayout(vehicleboardLayout);
+        vehicleboardLayout.setHorizontalGroup(
+            vehicleboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        vehicleboardLayout.setVerticalGroup(
+            vehicleboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        menuItem.add(vehicleboard, "card8");
+
+        armsboard.setBackground(new java.awt.Color(234, 238, 243));
+
+        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel72.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel72.setText("Police Station Management");
+        jPanel7.add(jLabel72, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        jLabel73.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel73.setText("Weapons List:");
+        jPanel7.add(jLabel73, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 180, 30));
+
+        jButton25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
+        jButton25.setText("Find");
+        jButton25.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton25ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(jButton25, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
+
+        jTable12.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane12.setViewportView(jTable12);
+
+        jPanel7.add(jScrollPane12, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 290));
+
+        jLabel74.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel74.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel74.setText("Version 1.0");
+        jPanel7.add(jLabel74, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
+
+        jButton26.setText("Add New Weapon");
+        jButton26.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton26ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(jButton26, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
+
+        jButton27.setText("Update Item");
+        jButton27.setActionCommand("Close Case");
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton27ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(jButton27, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
+
+        javax.swing.GroupLayout armsboardLayout = new javax.swing.GroupLayout(armsboard);
+        armsboard.setLayout(armsboardLayout);
+        armsboardLayout.setHorizontalGroup(
+            armsboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        armsboardLayout.setVerticalGroup(
+            armsboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+
+        menuItem.add(armsboard, "card9");
+
+        othersboard.setBackground(new java.awt.Color(234, 238, 243));
+
+        javax.swing.GroupLayout othersboardLayout = new javax.swing.GroupLayout(othersboard);
+        othersboard.setLayout(othersboardLayout);
+        othersboardLayout.setHorizontalGroup(
+            othersboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 830, Short.MAX_VALUE)
+        );
+        othersboardLayout.setVerticalGroup(
+            othersboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 530, Short.MAX_VALUE)
+        );
+
+        menuItem.add(othersboard, "card10");
+
         jPanel1.add(menuItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, 830, 530));
+
+        jLabel28.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-profile-24.png"))); // NOI18N
+        jPanel1.add(jLabel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 0, -1, 30));
+
+        jLabel31.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel31.setText("Admin, MinhajulIslam");
+        jPanel1.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 0, -1, 30));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -600,11 +1516,16 @@ public class DashBoard2 extends javax.swing.JFrame {
 
     private void caseInfoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_caseInfoMouseClicked
 
-      System.out.println("case");
-        
-        dashboard.setVisible(false);
+      
         policeboard.setVisible(false);
+        criminalborad.setVisible(false);
+        gdboard.setVisible(false);
+        dumpboard.setVisible(false);
+        vehicleboard.setVisible(false);
+        armsboard.setVisible(false);
+        dashboard.setVisible(false);
         caseborad.setVisible(true);
+        
 
     }//GEN-LAST:event_caseInfoMouseClicked
 
@@ -615,6 +1536,11 @@ public class DashBoard2 extends javax.swing.JFrame {
         
         caseborad.setVisible(false);
         policeboard.setVisible(false);
+        criminalborad.setVisible(false);
+        gdboard.setVisible(false);
+        dumpboard.setVisible(false);
+        vehicleboard.setVisible(false);
+        armsboard.setVisible(false);
         dashboard.setVisible(true);
         
     }//GEN-LAST:event_dashMouseClicked
@@ -623,30 +1549,48 @@ public class DashBoard2 extends javax.swing.JFrame {
         // TODO add your handling code here:
          System.out.println("police");
         
-        
-        dashboard.setVisible(false);
         caseborad.setVisible(false);
+        criminalborad.setVisible(false);
+        gdboard.setVisible(false);
+        dumpboard.setVisible(false);
+        vehicleboard.setVisible(false);
+        armsboard.setVisible(false);
+        dashboard.setVisible(false);
         policeboard.setVisible(true);
+        
     }//GEN-LAST:event_policeInfoMouseClicked
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
+        
+        UpdateCase upc = new UpdateCase();
+        upc.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
+        AddCriminal criminal = new AddCriminal();
+        criminal.setVisible(true);
+        
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
+        
+        findCase fc = new findCase();
+        fc.setVisible(true);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
+        PendingCase pc = new PendingCase();
+        pc.setVisible(true);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton5ActionPerformed
         // TODO add your handling code here:
+        SolvedCase sc = new SolvedCase();
+        sc.setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
 
     private void addPolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addPolActionPerformed
@@ -661,6 +1605,8 @@ public class DashBoard2 extends javax.swing.JFrame {
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
         // TODO add your handling code here:
+        findPolice fp = new findPolice();
+        fp.setVisible(true);
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
@@ -690,6 +1636,140 @@ public class DashBoard2 extends javax.swing.JFrame {
     private void jButton14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton14ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton14ActionPerformed
+
+    private void criminalInfoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_criminalInfoMouseClicked
+        // TODO add your handling code here:
+        
+        caseborad.setVisible(false);
+        gdboard.setVisible(false);
+        dumpboard.setVisible(false);
+        vehicleboard.setVisible(false);
+        armsboard.setVisible(false);
+        dashboard.setVisible(false);
+        policeboard.setVisible(false);
+        criminalborad.setVisible(true);
+
+        
+        
+    }//GEN-LAST:event_criminalInfoMouseClicked
+
+    private void jButton15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton15ActionPerformed
+
+    private void jButton16ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton16ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton16ActionPerformed
+
+    private void jButton17ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton17ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton17ActionPerformed
+
+    private void dashMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dashMouseEntered
+
+        
+        
+    }//GEN-LAST:event_dashMouseEntered
+
+    private void dashMouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dashMouseExited
+
+         
+        
+    }//GEN-LAST:event_dashMouseExited
+
+    private void jButton19ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton19ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton19ActionPerformed
+
+    private void jButton20ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton20ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton20ActionPerformed
+
+    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton21ActionPerformed
+
+    private void jButton22ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton22ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton22ActionPerformed
+
+    private void jButton23ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton23ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton23ActionPerformed
+
+    private void jButton24ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton24ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton24ActionPerformed
+
+    private void jButton25ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton25ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton25ActionPerformed
+
+    private void jButton26ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton26ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton26ActionPerformed
+
+    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton27ActionPerformed
+
+    private void generalDiaryMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_generalDiaryMouseClicked
+        // TODO add your handling code here:
+        
+        caseborad.setVisible(false);
+        dumpboard.setVisible(false);
+        vehicleboard.setVisible(false);
+        armsboard.setVisible(false);
+        dashboard.setVisible(false);
+        policeboard.setVisible(false);
+        criminalborad.setVisible(false);
+        gdboard.setVisible(true);
+    }//GEN-LAST:event_generalDiaryMouseClicked
+
+    private void dumInfoMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dumInfoMouseClicked
+        // TODO add your handling code here:
+         caseborad.setVisible(false);
+        vehicleboard.setVisible(false);
+        armsboard.setVisible(false);
+        dashboard.setVisible(false);
+        policeboard.setVisible(false);
+        criminalborad.setVisible(false);
+        gdboard.setVisible(false);
+        dumpboard.setVisible(true);
+    }//GEN-LAST:event_dumInfoMouseClicked
+
+    private void others1CaretPositionChanged(java.awt.event.InputMethodEvent evt) {//GEN-FIRST:event_others1CaretPositionChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_others1CaretPositionChanged
+
+    private void others1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_others1MouseClicked
+        // TODO add your handling code here:
+                 caseborad.setVisible(false);
+        
+        armsboard.setVisible(false);
+        dashboard.setVisible(false);
+        policeboard.setVisible(false);
+        criminalborad.setVisible(false);
+        gdboard.setVisible(false);
+        dumpboard.setVisible(false);
+        vehicleboard.setVisible(true);
+    }//GEN-LAST:event_others1MouseClicked
+
+    private void others2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_others2MouseClicked
+
+caseborad.setVisible(false);
+        
+        
+        dashboard.setVisible(false);
+        policeboard.setVisible(false);
+        criminalborad.setVisible(false);
+        gdboard.setVisible(false);
+        dumpboard.setVisible(false);
+        vehicleboard.setVisible(false);
+        armsboard.setVisible(true);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_others2MouseClicked
 
     /**
      * @param args the command line arguments
@@ -722,6 +1802,7 @@ public class DashBoard2 extends javax.swing.JFrame {
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
                 new DashBoard2().setVisible(true);
+                
             }
         });
     }
@@ -731,6 +1812,7 @@ public class DashBoard2 extends javax.swing.JFrame {
     private javax.swing.JLabel addNewAdmin;
     private javax.swing.JButton addPol;
     private javax.swing.JButton addPol1;
+    private javax.swing.JPanel armsboard;
     private javax.swing.JLabel caseInfo;
     private javax.swing.JPanel caseborad;
     private javax.swing.JLabel comInfo;
@@ -739,7 +1821,9 @@ public class DashBoard2 extends javax.swing.JFrame {
     private javax.swing.JLabel dash;
     private javax.swing.JPanel dashboard;
     private javax.swing.JLabel dumInfo;
+    private javax.swing.JPanel dumpboard;
     private javax.swing.JLabel editProfile;
+    private javax.swing.JPanel gdboard;
     private javax.swing.JLabel generalDiary;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
@@ -747,7 +1831,19 @@ public class DashBoard2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
@@ -756,46 +1852,129 @@ public class DashBoard2 extends javax.swing.JFrame {
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel50;
+    private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
-    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTable jTable1;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JTable jTable10;
+    private javax.swing.JTable jTable11;
+    private javax.swing.JTable jTable12;
     private javax.swing.JTable jTable2;
+    private javax.swing.JTable jTable3;
+    private javax.swing.JTable jTable4;
+    private javax.swing.JTable jTable5;
+    private javax.swing.JTable jTable6;
+    private javax.swing.JTable jTable7;
+    private javax.swing.JTable jTable8;
+    private javax.swing.JTable jTable9;
     private javax.swing.JLabel logOut;
     private javax.swing.JPanel menuItem;
     private javax.swing.JPanel menubar;
     private javax.swing.JLabel others;
+    private javax.swing.JLabel others1;
+    private javax.swing.JLabel others2;
+    private javax.swing.JPanel othersboard;
     private javax.swing.JLabel personalInfo;
     private javax.swing.JLabel policeInfo;
     private javax.swing.JPanel policeboard;
-    private javax.swing.JLabel profileImg;
+    private javax.swing.JLabel profileImg1;
     private javax.swing.JLabel userName;
+    private javax.swing.JLabel userName1;
+    private javax.swing.JLabel userName10;
+    private javax.swing.JLabel userName11;
+    private javax.swing.JLabel userName3;
+    private javax.swing.JLabel userName5;
+    private javax.swing.JLabel userName6;
+    private javax.swing.JLabel userName7;
+    private javax.swing.JLabel userName8;
+    private javax.swing.JLabel userName9;
+    private javax.swing.JPanel vehicleboard;
     // End of variables declaration//GEN-END:variables
 }
