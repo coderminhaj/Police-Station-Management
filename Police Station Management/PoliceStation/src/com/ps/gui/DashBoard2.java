@@ -125,12 +125,22 @@ public class DashBoard2 extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         jLabel19 = new javax.swing.JLabel();
         addPol = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
         jButton10 = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTable2 = new javax.swing.JTable();
+        policeboard1 = new javax.swing.JPanel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        addPol2 = new javax.swing.JButton();
+        jButton18 = new javax.swing.JButton();
+        jButton28 = new javax.swing.JButton();
+        jButton29 = new javax.swing.JButton();
+        jButton30 = new javax.swing.JButton();
+        jButton7 = new javax.swing.JButton();
+        jButton32 = new javax.swing.JButton();
+        jButton31 = new javax.swing.JButton();
         criminalborad = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
@@ -217,6 +227,7 @@ public class DashBoard2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Police Station Management");
+        setPreferredSize(new java.awt.Dimension(1300, 700));
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(44, 133, 193));
@@ -265,7 +276,7 @@ public class DashBoard2 extends javax.swing.JFrame {
                 caseInfoMouseClicked(evt);
             }
         });
-        menubar.add(caseInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, 160, -1));
+        menubar.add(caseInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 160, -1));
 
         policeInfo.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         policeInfo.setForeground(new java.awt.Color(255, 255, 255));
@@ -275,7 +286,7 @@ public class DashBoard2 extends javax.swing.JFrame {
                 policeInfoMouseClicked(evt);
             }
         });
-        menubar.add(policeInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 160, -1));
+        menubar.add(policeInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, 160, -1));
 
         criminalInfo.setFont(new java.awt.Font("Segoe UI", 0, 17)); // NOI18N
         criminalInfo.setForeground(new java.awt.Color(255, 255, 255));
@@ -369,7 +380,7 @@ public class DashBoard2 extends javax.swing.JFrame {
 
         userName3.setForeground(new java.awt.Color(255, 255, 255));
         userName3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-police-24.png"))); // NOI18N
-        menubar.add(userName3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+        menubar.add(userName3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, -1));
 
         userName5.setForeground(new java.awt.Color(255, 255, 255));
         userName5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Vampire.png"))); // NOI18N
@@ -389,7 +400,7 @@ public class DashBoard2 extends javax.swing.JFrame {
 
         userName9.setForeground(new java.awt.Color(255, 255, 255));
         userName9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Book of record.png"))); // NOI18N
-        menubar.add(userName9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, -1));
+        menubar.add(userName9, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
 
         userName10.setForeground(new java.awt.Color(255, 255, 255));
         userName10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-police-car-24.png"))); // NOI18N
@@ -399,7 +410,7 @@ public class DashBoard2 extends javax.swing.JFrame {
         userName11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-sports-gun-24.png"))); // NOI18N
         menubar.add(userName11, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, -1, -1));
 
-        jPanel1.add(menubar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 560));
+        jPanel1.add(menubar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 200, 700));
 
         menuItem.setBackground(new java.awt.Color(204, 204, 204));
         menuItem.setLayout(new java.awt.CardLayout());
@@ -859,15 +870,6 @@ public class DashBoard2 extends javax.swing.JFrame {
         });
         policeboard.add(addPol, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
 
-        jButton7.setText("Police Information Update");
-        jButton7.setActionCommand("Close Case");
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
-            }
-        });
-        policeboard.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
-
         jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
         jButton8.setText("Find Police");
         jButton8.addActionListener(new java.awt.event.ActionListener() {
@@ -930,7 +932,92 @@ public class DashBoard2 extends javax.swing.JFrame {
         ));
         jScrollPane2.setViewportView(jTable2);
 
-        policeboard.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 380));
+        policeboard.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 1100, 520));
+
+        policeboard1.setBackground(new java.awt.Color(234, 238, 243));
+        policeboard1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel7.setText("Police Station Management");
+        policeboard1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        jLabel75.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel75.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel75.setText("Version 1.0");
+        policeboard1.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
+
+        addPol2.setText("Add New Police");
+        addPol2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addPol2ActionPerformed(evt);
+            }
+        });
+        policeboard1.add(addPol2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
+
+        jButton18.setText("Police Information Update");
+        jButton18.setActionCommand("Close Case");
+        jButton18.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton18ActionPerformed(evt);
+            }
+        });
+        policeboard1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
+
+        jButton28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
+        jButton28.setText("Find Police");
+        jButton28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton28ActionPerformed(evt);
+            }
+        });
+        policeboard1.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
+
+        jButton29.setText("Case Solved");
+        jButton29.setActionCommand("Close Case");
+        jButton29.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton29ActionPerformed(evt);
+            }
+        });
+        policeboard1.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
+
+        jButton30.setText("Closed Case");
+        jButton30.setActionCommand("Close Case");
+        jButton30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton30ActionPerformed(evt);
+            }
+        });
+        policeboard1.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
+
+        jButton7.setText("Add Departments");
+        jButton7.setActionCommand("Close Case");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+        policeboard1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 70, 130, 40));
+
+        jButton32.setText("Add Role");
+        jButton32.setActionCommand("Close Case");
+        jButton32.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton32ActionPerformed(evt);
+            }
+        });
+        policeboard1.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 70, 130, 40));
+
+        policeboard.add(policeboard1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 670));
+
+        jButton31.setText("Police Information Update");
+        jButton31.setActionCommand("Close Case");
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
+        policeboard.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
 
         menuItem.add(policeboard, "card4");
 
@@ -1481,16 +1568,16 @@ public class DashBoard2 extends javax.swing.JFrame {
         othersboard.setLayout(othersboardLayout);
         othersboardLayout.setHorizontalGroup(
             othersboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 830, Short.MAX_VALUE)
+            .addGap(0, 1100, Short.MAX_VALUE)
         );
         othersboardLayout.setVerticalGroup(
             othersboardLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 530, Short.MAX_VALUE)
+            .addGap(0, 670, Short.MAX_VALUE)
         );
 
         menuItem.add(othersboard, "card10");
 
-        jPanel1.add(menuItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, 830, 530));
+        jPanel1.add(menuItem, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 30, 1100, 670));
 
         jLabel28.setForeground(new java.awt.Color(255, 255, 255));
         jLabel28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-profile-24.png"))); // NOI18N
@@ -1592,30 +1679,6 @@ public class DashBoard2 extends javax.swing.JFrame {
         SolvedCase sc = new SolvedCase();
         sc.setVisible(true);
     }//GEN-LAST:event_jButton5ActionPerformed
-
-    private void addPolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addPolActionPerformed
-        // TODO add your handling code here:
-        addPolice ap = new addPolice();
-        ap.setVisible(true);
-    }//GEN-LAST:event_addPolActionPerformed
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
-
-    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        // TODO add your handling code here:
-        findPolice fp = new findPolice();
-        fp.setVisible(true);
-    }//GEN-LAST:event_jButton8ActionPerformed
-
-    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton9ActionPerformed
-
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
 
     private void addPol1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addPol1ActionPerformed
         // TODO add your handling code here:
@@ -1771,6 +1834,58 @@ caseborad.setVisible(false);
         // TODO add your handling code here:
     }//GEN-LAST:event_others2MouseClicked
 
+    private void addPol2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addPol2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_addPol2ActionPerformed
+
+    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton18ActionPerformed
+
+    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton28ActionPerformed
+
+    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton29ActionPerformed
+
+    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton30ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton10ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+        findPolice fp = new findPolice();
+        fp.setVisible(true);
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void addPolActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addPolActionPerformed
+        // TODO add your handling code here:
+        addPolice ap = new addPolice();
+        ap.setVisible(true);
+    }//GEN-LAST:event_addPolActionPerformed
+
+    private void jButton31ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton31ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton31ActionPerformed
+
+    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton32ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1812,6 +1927,7 @@ caseborad.setVisible(false);
     private javax.swing.JLabel addNewAdmin;
     private javax.swing.JButton addPol;
     private javax.swing.JButton addPol1;
+    private javax.swing.JButton addPol2;
     private javax.swing.JPanel armsboard;
     private javax.swing.JLabel caseInfo;
     private javax.swing.JPanel caseborad;
@@ -1834,6 +1950,7 @@ caseborad.setVisible(false);
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
@@ -1844,7 +1961,12 @@ caseborad.setVisible(false);
     private javax.swing.JButton jButton25;
     private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton27;
+    private javax.swing.JButton jButton28;
+    private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton30;
+    private javax.swing.JButton jButton31;
+    private javax.swing.JButton jButton32;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton7;
@@ -1908,11 +2030,13 @@ caseborad.setVisible(false);
     private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel73;
     private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
@@ -1964,6 +2088,7 @@ caseborad.setVisible(false);
     private javax.swing.JLabel personalInfo;
     private javax.swing.JLabel policeInfo;
     private javax.swing.JPanel policeboard;
+    private javax.swing.JPanel policeboard1;
     private javax.swing.JLabel profileImg1;
     private javax.swing.JLabel userName;
     private javax.swing.JLabel userName1;
