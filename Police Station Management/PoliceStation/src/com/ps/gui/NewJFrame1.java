@@ -29,6 +29,8 @@ public class NewJFrame1 extends javax.swing.JFrame {
 
         jPanel1 = new javax.swing.JPanel();
         titlebar = new javax.swing.JPanel();
+        jLabel19 = new javax.swing.JLabel();
+        jLabel142 = new javax.swing.JLabel();
         menubox = new javax.swing.JPanel();
         userName12 = new javax.swing.JLabel();
         userName4 = new javax.swing.JLabel();
@@ -110,13 +112,26 @@ public class NewJFrame1 extends javax.swing.JFrame {
         jLabel148 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         policeboard = new javax.swing.JPanel();
-        jLabel17 = new javax.swing.JLabel();
+        pbhome = new javax.swing.JPanel();
+        jLabel3 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
+        createpol = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
+        jLabel6 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jLabel7 = new javax.swing.JLabel();
+        jTextField3 = new javax.swing.JTextField();
+        jLabel8 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
         jButton34 = new javax.swing.JButton();
         addPol3 = new javax.swing.JButton();
-        jLabel109 = new javax.swing.JLabel();
         jButton36 = new javax.swing.JButton();
         jButton33 = new javax.swing.JButton();
         jButton35 = new javax.swing.JButton();
+        jButton37 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -124,17 +139,17 @@ public class NewJFrame1 extends javax.swing.JFrame {
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         titlebar.setBackground(new java.awt.Color(255, 204, 204));
+        titlebar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        javax.swing.GroupLayout titlebarLayout = new javax.swing.GroupLayout(titlebar);
-        titlebar.setLayout(titlebarLayout);
-        titlebarLayout.setHorizontalGroup(
-            titlebarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 860, Short.MAX_VALUE)
-        );
-        titlebarLayout.setVerticalGroup(
-            titlebarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 50, Short.MAX_VALUE)
-        );
+        jLabel19.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel19.setText("Police Station Management System");
+        titlebar.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
+
+        jLabel142.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel142.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel142.setText("Version 1.0");
+        jLabel142.setVerticalAlignment(javax.swing.SwingConstants.BOTTOM);
+        titlebar.add(jLabel142, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 10, 234, 30));
 
         jPanel1.add(titlebar, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 0, 860, 50));
 
@@ -580,11 +595,70 @@ public class NewJFrame1 extends javax.swing.JFrame {
         policeboard.setBackground(new java.awt.Color(204, 204, 255));
         policeboard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel17.setText("Police Information");
-        policeboard.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+        pbhome.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton34.setText("Find Police");
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel3.setText("Police List:");
+        pbhome.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
+
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane1.setViewportView(jTable1);
+
+        pbhome.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 40, 860, 440));
+
+        policeboard.add(pbhome, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 860, 480));
+
+        createpol.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel4.setText("Please Input Police Details:");
+        createpol.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, -1, -1));
+
+        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel5.setText("Police ID:");
+        createpol.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 60, 110, 30));
+
+        jTextField1.setText("jTextField1");
+        createpol.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 200, 30));
+
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel6.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel6.setText("Police ID:");
+        createpol.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 60, 110, 30));
+
+        jTextField2.setText("jTextField1");
+        createpol.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 60, 200, 30));
+
+        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel7.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel7.setText("Fist Name:");
+        createpol.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 100, 110, 30));
+
+        jTextField3.setText("jTextField1");
+        createpol.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 100, 200, 30));
+
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel8.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
+        jLabel8.setText("Last Name");
+        createpol.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 100, 110, 30));
+
+        jTextField4.setText("jTextField1");
+        createpol.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 100, 200, 30));
+
+        policeboard.add(createpol, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 860, 360));
+
+        jButton34.setText("Create Role");
         jButton34.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton34ActionPerformed(evt);
@@ -600,21 +674,16 @@ public class NewJFrame1 extends javax.swing.JFrame {
         });
         policeboard.add(addPol3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
 
-        jLabel109.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel109.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel109.setText("Version 1.0");
-        policeboard.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, 234, 16));
-
-        jButton36.setText("Police Information Update");
+        jButton36.setText("Find Police");
         jButton36.setActionCommand("Close Case");
         jButton36.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton36ActionPerformed(evt);
             }
         });
-        policeboard.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
+        policeboard.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 70, 130, 40));
 
-        jButton33.setText("Case Solved");
+        jButton33.setText("Solved/Closed Case");
         jButton33.setActionCommand("Close Case");
         jButton33.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -631,6 +700,15 @@ public class NewJFrame1 extends javax.swing.JFrame {
             }
         });
         policeboard.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
+
+        jButton37.setText("Police Information Update");
+        jButton37.setActionCommand("Close Case");
+        jButton37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton37ActionPerformed(evt);
+            }
+        });
+        policeboard.add(jButton37, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
 
         menuitem.add(policeboard, "card4");
 
@@ -656,6 +734,10 @@ public class NewJFrame1 extends javax.swing.JFrame {
 
     private void policeInfo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_policeInfo1MouseClicked
         // TODO add your handling code here:
+        
+        dashboard.setVisible(false);
+        policeboard.setVisible(true);
+        pbhome.setVisible(true);
 
         //        caseborad.setVisible(false);
         //        criminalborad.setVisible(false);
@@ -669,6 +751,10 @@ public class NewJFrame1 extends javax.swing.JFrame {
 
     private void dash1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dash1MouseClicked
         // TODO add your handling code here:
+        
+        
+        policeboard.setVisible(false);
+        dashboard.setVisible(true);
     }//GEN-LAST:event_dash1MouseClicked
 
     private void dash1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dash1MouseEntered
@@ -712,6 +798,9 @@ public class NewJFrame1 extends javax.swing.JFrame {
 
     private void addPol3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addPol3ActionPerformed
 
+        pbhome.setVisible(false);
+        createpol.setVisible(true);
+        
     }//GEN-LAST:event_addPol3ActionPerformed
 
     private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
@@ -725,6 +814,10 @@ public class NewJFrame1 extends javax.swing.JFrame {
     private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton35ActionPerformed
+
+    private void jButton37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton37ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton37ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -767,6 +860,7 @@ public class NewJFrame1 extends javax.swing.JFrame {
     private javax.swing.JButton addPol3;
     private javax.swing.JLabel caseInfo1;
     private javax.swing.JLabel comInfo;
+    private javax.swing.JPanel createpol;
     private javax.swing.JLabel criminalInfo1;
     private javax.swing.JLabel dash1;
     private javax.swing.JPanel dashboard;
@@ -777,8 +871,8 @@ public class NewJFrame1 extends javax.swing.JFrame {
     private javax.swing.JButton jButton34;
     private javax.swing.JButton jButton35;
     private javax.swing.JButton jButton36;
+    private javax.swing.JButton jButton37;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel109;
     private javax.swing.JLabel jLabel110;
     private javax.swing.JLabel jLabel111;
     private javax.swing.JLabel jLabel112;
@@ -811,13 +905,20 @@ public class NewJFrame1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel139;
     private javax.swing.JLabel jLabel140;
     private javax.swing.JLabel jLabel141;
+    private javax.swing.JLabel jLabel142;
     private javax.swing.JLabel jLabel145;
     private javax.swing.JLabel jLabel146;
     private javax.swing.JLabel jLabel147;
     private javax.swing.JLabel jLabel148;
-    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel34;
     private javax.swing.JPanel jPanel35;
@@ -831,12 +932,19 @@ public class NewJFrame1 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel43;
     private javax.swing.JPanel jPanel44;
     private javax.swing.JPanel jPanel46;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
     private javax.swing.JLabel logOut1;
     private javax.swing.JPanel menubox;
     private javax.swing.JPanel menuitem;
     private javax.swing.JLabel others3;
     private javax.swing.JLabel others4;
     private javax.swing.JLabel others5;
+    private javax.swing.JPanel pbhome;
     private javax.swing.JLabel personalInfo1;
     private javax.swing.JLabel policeInfo1;
     private javax.swing.JPanel policeboard;
