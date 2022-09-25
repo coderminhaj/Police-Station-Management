@@ -1,5 +1,7 @@
 package com.ps.gui;
 
+import javax.swing.JDesktopPane;
+
 
 
 public class DashBoard2 extends javax.swing.JFrame {
@@ -104,6 +106,7 @@ public class DashBoard2 extends javax.swing.JFrame {
         jLabel62 = new javax.swing.JLabel();
         jLabel63 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
+        JDPANE = new javax.swing.JDesktopPane();
         caseborad = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
@@ -200,6 +203,153 @@ public class DashBoard2 extends javax.swing.JFrame {
         othersboard = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
+        policeboard2 = new javax.swing.JPanel();
+        jLabel17 = new javax.swing.JLabel();
+        jLabel109 = new javax.swing.JLabel();
+        addPol3 = new javax.swing.JButton();
+        jButton33 = new javax.swing.JButton();
+        jButton34 = new javax.swing.JButton();
+        jButton35 = new javax.swing.JButton();
+        jButton36 = new javax.swing.JButton();
+        jPanel32 = new javax.swing.JPanel();
+        dashboard1 = new javax.swing.JPanel();
+        jPanel21 = new javax.swing.JPanel();
+        jLabel76 = new javax.swing.JLabel();
+        jLabel77 = new javax.swing.JLabel();
+        jLabel78 = new javax.swing.JLabel();
+        jPanel22 = new javax.swing.JPanel();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        jLabel81 = new javax.swing.JLabel();
+        jPanel23 = new javax.swing.JPanel();
+        jLabel82 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jLabel84 = new javax.swing.JLabel();
+        jPanel24 = new javax.swing.JPanel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        jPanel25 = new javax.swing.JPanel();
+        jLabel88 = new javax.swing.JLabel();
+        jLabel89 = new javax.swing.JLabel();
+        jLabel90 = new javax.swing.JLabel();
+        jPanel26 = new javax.swing.JPanel();
+        jLabel91 = new javax.swing.JLabel();
+        jLabel92 = new javax.swing.JLabel();
+        jLabel93 = new javax.swing.JLabel();
+        jPanel27 = new javax.swing.JPanel();
+        jLabel94 = new javax.swing.JLabel();
+        jLabel95 = new javax.swing.JLabel();
+        jLabel96 = new javax.swing.JLabel();
+        jPanel28 = new javax.swing.JPanel();
+        jLabel97 = new javax.swing.JLabel();
+        jLabel98 = new javax.swing.JLabel();
+        jLabel99 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jPanel8 = new javax.swing.JPanel();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
+        jLabel100 = new javax.swing.JLabel();
+        jPanel29 = new javax.swing.JPanel();
+        jLabel13 = new javax.swing.JLabel();
+        jLabel101 = new javax.swing.JLabel();
+        jLabel102 = new javax.swing.JLabel();
+        jPanel30 = new javax.swing.JPanel();
+        jLabel103 = new javax.swing.JLabel();
+        jLabel104 = new javax.swing.JLabel();
+        jLabel105 = new javax.swing.JLabel();
+        jPanel31 = new javax.swing.JPanel();
+        jLabel106 = new javax.swing.JLabel();
+        jLabel107 = new javax.swing.JLabel();
+        jLabel108 = new javax.swing.JLabel();
+        jPanel9 = new javax.swing.JPanel();
+        jLabel14 = new javax.swing.JLabel();
+        jLabel15 = new javax.swing.JLabel();
+        jLabel16 = new javax.swing.JLabel();
+        menuItem1 = new javax.swing.JPanel();
+        jPanel33 = new javax.swing.JPanel();
+        jLabel141 = new javax.swing.JLabel();
+        jPanel36 = new javax.swing.JPanel();
+        jLabel18 = new javax.swing.JLabel();
+        jLabel116 = new javax.swing.JLabel();
+        jPanel34 = new javax.swing.JPanel();
+        jLabel110 = new javax.swing.JLabel();
+        jLabel111 = new javax.swing.JLabel();
+        jLabel112 = new javax.swing.JLabel();
+        jPanel35 = new javax.swing.JPanel();
+        jLabel113 = new javax.swing.JLabel();
+        jLabel114 = new javax.swing.JLabel();
+        jLabel115 = new javax.swing.JLabel();
+        jPanel37 = new javax.swing.JPanel();
+        jLabel117 = new javax.swing.JLabel();
+        jLabel118 = new javax.swing.JLabel();
+        jLabel119 = new javax.swing.JLabel();
+        jPanel38 = new javax.swing.JPanel();
+        jLabel120 = new javax.swing.JLabel();
+        jLabel121 = new javax.swing.JLabel();
+        jLabel122 = new javax.swing.JLabel();
+        jPanel39 = new javax.swing.JPanel();
+        jLabel123 = new javax.swing.JLabel();
+        jLabel124 = new javax.swing.JLabel();
+        jLabel125 = new javax.swing.JLabel();
+        jPanel40 = new javax.swing.JPanel();
+        jLabel126 = new javax.swing.JLabel();
+        jLabel127 = new javax.swing.JLabel();
+        jLabel128 = new javax.swing.JLabel();
+        jPanel41 = new javax.swing.JPanel();
+        jLabel129 = new javax.swing.JLabel();
+        jLabel130 = new javax.swing.JLabel();
+        jLabel131 = new javax.swing.JLabel();
+        jPanel42 = new javax.swing.JPanel();
+        jLabel132 = new javax.swing.JLabel();
+        jLabel133 = new javax.swing.JLabel();
+        jLabel134 = new javax.swing.JLabel();
+        jPanel43 = new javax.swing.JPanel();
+        jLabel135 = new javax.swing.JLabel();
+        jLabel136 = new javax.swing.JLabel();
+        jLabel137 = new javax.swing.JLabel();
+        jPanel44 = new javax.swing.JPanel();
+        jLabel138 = new javax.swing.JLabel();
+        jLabel139 = new javax.swing.JLabel();
+        jLabel140 = new javax.swing.JLabel();
+        jPanel45 = new javax.swing.JPanel();
+        jLabel142 = new javax.swing.JLabel();
+        jLabel143 = new javax.swing.JLabel();
+        jLabel144 = new javax.swing.JLabel();
+        jPanel46 = new javax.swing.JPanel();
+        jLabel145 = new javax.swing.JLabel();
+        jLabel146 = new javax.swing.JLabel();
+        jLabel147 = new javax.swing.JLabel();
+        jLabel148 = new javax.swing.JLabel();
+        menuBar = new javax.swing.JPanel();
+        userName12 = new javax.swing.JLabel();
+        userName13 = new javax.swing.JLabel();
+        userName14 = new javax.swing.JLabel();
+        others3 = new javax.swing.JLabel();
+        activity1 = new javax.swing.JLabel();
+        editProfile1 = new javax.swing.JLabel();
+        userName2 = new javax.swing.JLabel();
+        criminalInfo1 = new javax.swing.JLabel();
+        userName15 = new javax.swing.JLabel();
+        generalDiary1 = new javax.swing.JLabel();
+        others4 = new javax.swing.JLabel();
+        userName16 = new javax.swing.JLabel();
+        profileImg2 = new javax.swing.JLabel();
+        logOut1 = new javax.swing.JLabel();
+        policeInfo1 = new javax.swing.JLabel();
+        userName4 = new javax.swing.JLabel();
+        others5 = new javax.swing.JLabel();
+        dumInfo1 = new javax.swing.JLabel();
+        userName17 = new javax.swing.JLabel();
+        personalInfo1 = new javax.swing.JLabel();
+        userName18 = new javax.swing.JLabel();
+        addNewAdmin1 = new javax.swing.JLabel();
+        caseInfo1 = new javax.swing.JLabel();
+        userName19 = new javax.swing.JLabel();
+        dash1 = new javax.swing.JLabel();
+        titleBar = new javax.swing.JPanel();
+        logoSite = new javax.swing.JPanel();
+        jLabel149 = new javax.swing.JLabel();
 
         jPanel3.setBackground(new java.awt.Color(44, 133, 193));
 
@@ -227,7 +377,6 @@ public class DashBoard2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Police Station Management");
-        setPreferredSize(new java.awt.Dimension(1300, 700));
         setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(44, 133, 193));
@@ -666,6 +815,19 @@ public class DashBoard2 extends javax.swing.JFrame {
         jPanel19.add(jPanel20, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
 
         dashboard.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 300, 230, 100));
+
+        javax.swing.GroupLayout JDPANELayout = new javax.swing.GroupLayout(JDPANE);
+        JDPANE.setLayout(JDPANELayout);
+        JDPANELayout.setHorizontalGroup(
+            JDPANELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 720, Short.MAX_VALUE)
+        );
+        JDPANELayout.setVerticalGroup(
+            JDPANELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 420, Short.MAX_VALUE)
+        );
+
+        dashboard.add(JDPANE, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 720, 420));
 
         menuItem.add(dashboard, "card2");
 
@@ -1587,6 +1749,821 @@ public class DashBoard2 extends javax.swing.JFrame {
         jLabel31.setText("Admin, MinhajulIslam");
         jPanel1.add(jLabel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 0, -1, 30));
 
+        policeboard2.setBackground(new java.awt.Color(204, 204, 255));
+        policeboard2.setPreferredSize(new java.awt.Dimension(1050, 570));
+        policeboard2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel17.setText("Police Information");
+        policeboard2.add(jLabel17, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        jLabel109.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel109.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel109.setText("Version 1.0");
+        policeboard2.add(jLabel109, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 30, 234, 16));
+
+        addPol3.setText("Add New Police");
+        addPol3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addPol3ActionPerformed(evt);
+            }
+        });
+        policeboard2.add(addPol3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
+
+        jButton33.setText("Case Solved");
+        jButton33.setActionCommand("Close Case");
+        jButton33.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton33ActionPerformed(evt);
+            }
+        });
+        policeboard2.add(jButton33, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
+
+        jButton34.setText("Find Police");
+        jButton34.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton34ActionPerformed(evt);
+            }
+        });
+        policeboard2.add(jButton34, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
+
+        jButton35.setText("Closed Case");
+        jButton35.setActionCommand("Close Case");
+        jButton35.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton35ActionPerformed(evt);
+            }
+        });
+        policeboard2.add(jButton35, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
+
+        jButton36.setText("Police Information Update");
+        jButton36.setActionCommand("Close Case");
+        jButton36.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton36ActionPerformed(evt);
+            }
+        });
+        policeboard2.add(jButton36, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
+
+        jPanel32.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+
+        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
+        jPanel32.setLayout(jPanel32Layout);
+        jPanel32Layout.setHorizontalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1008, Short.MAX_VALUE)
+        );
+        jPanel32Layout.setVerticalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 508, Short.MAX_VALUE)
+        );
+
+        policeboard2.add(jPanel32, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 1010, 510));
+
+        jPanel1.add(policeboard2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 640));
+
+        dashboard1.setBackground(new java.awt.Color(224, 221, 221));
+        dashboard1.setPreferredSize(new java.awt.Dimension(1050, 570));
+        dashboard1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel21.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel76.setBackground(new java.awt.Color(153, 51, 255));
+        jLabel76.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel76.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel76.setOpaque(true);
+        jPanel21.add(jLabel76, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel77.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel77.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel77.setText("VEHICLE");
+        jPanel21.add(jLabel77, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel78.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel78.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel78.setText("250");
+        jPanel21.add(jLabel78, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel22.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel79.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel79.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel79.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel79.setOpaque(true);
+        jPanel22.add(jLabel79, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel80.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel80.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel80.setText("TOTAL CASE");
+        jPanel22.add(jLabel80, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel81.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel81.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel81.setText("250");
+        jPanel22.add(jLabel81, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel21.add(jPanel22, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        dashboard1.add(jPanel21, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 230, 100));
+
+        jPanel23.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel82.setBackground(new java.awt.Color(234, 87, 55));
+        jLabel82.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel82.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel82.setOpaque(true);
+        jPanel23.add(jLabel82, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel83.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel83.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel83.setText("PENDING");
+        jPanel23.add(jLabel83, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel84.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel84.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel84.setText("250");
+        jPanel23.add(jLabel84, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel24.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel85.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel85.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel85.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel85.setOpaque(true);
+        jPanel24.add(jLabel85, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel86.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel86.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel86.setText("TOTAL CASE");
+        jPanel24.add(jLabel86, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel87.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel87.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel87.setText("250");
+        jPanel24.add(jLabel87, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel23.add(jPanel24, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        dashboard1.add(jPanel23, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 230, 100));
+
+        jPanel25.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel88.setBackground(new java.awt.Color(255, 0, 255));
+        jLabel88.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel88.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel88.setOpaque(true);
+        jPanel25.add(jLabel88, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel89.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel89.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel89.setText("GUNS");
+        jPanel25.add(jLabel89, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel90.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel90.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel90.setText("250");
+        jPanel25.add(jLabel90, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel26.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel91.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel91.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel91.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel91.setOpaque(true);
+        jPanel26.add(jLabel91, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel92.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel92.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel92.setText("TOTAL CASE");
+        jPanel26.add(jLabel92, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel93.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel93.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel93.setText("250");
+        jPanel26.add(jLabel93, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel25.add(jPanel26, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        dashboard1.add(jPanel25, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 350, 230, 100));
+
+        jPanel27.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel94.setBackground(new java.awt.Color(0, 204, 204));
+        jLabel94.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel94.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel94.setOpaque(true);
+        jPanel27.add(jLabel94, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel95.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel95.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel95.setText("POLICE");
+        jPanel27.add(jLabel95, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel96.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel96.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel96.setText("250");
+        jPanel27.add(jLabel96, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel28.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel97.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel97.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel97.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel97.setOpaque(true);
+        jPanel28.add(jLabel97, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel98.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel98.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel98.setText("TOTAL CASE");
+        jPanel28.add(jLabel98, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel99.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel99.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel99.setText("250");
+        jPanel28.add(jLabel99, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel27.add(jPanel28, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        dashboard1.add(jPanel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 350, 230, 100));
+
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel8.setText("Version 1.0");
+        dashboard1.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 30, 234, 16));
+
+        jPanel8.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel11.setBackground(new java.awt.Color(0, 147, 87));
+        jLabel11.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel11.setOpaque(true);
+        jPanel8.add(jLabel11, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel12.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel12.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel12.setText("SOLVED");
+        jPanel8.add(jLabel12, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel100.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel100.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel100.setText("250");
+        jPanel8.add(jLabel100, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel29.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel13.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel13.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel13.setOpaque(true);
+        jPanel29.add(jLabel13, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel101.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel101.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel101.setText("TOTAL CASE");
+        jPanel29.add(jLabel101, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel102.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel102.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel102.setText("250");
+        jPanel29.add(jLabel102, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel8.add(jPanel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        dashboard1.add(jPanel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 140, 230, 100));
+
+        jPanel30.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel103.setBackground(new java.awt.Color(0, 174, 245));
+        jLabel103.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel103.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel103.setOpaque(true);
+        jPanel30.add(jLabel103, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel104.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel104.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel104.setText("TOTAL CASE");
+        jPanel30.add(jLabel104, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel105.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel105.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel105.setText("250");
+        jPanel30.add(jLabel105, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel31.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel106.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel106.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel106.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel106.setOpaque(true);
+        jPanel31.add(jLabel106, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel107.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel107.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel107.setText("TOTAL CASE");
+        jPanel31.add(jLabel107, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel108.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel108.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel108.setText("250");
+        jPanel31.add(jLabel108, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel30.add(jPanel31, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        dashboard1.add(jPanel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 230, 100));
+
+        jPanel9.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel9.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel14.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel14.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel14.setText("Dashboard  >");
+        jPanel9.add(jLabel14, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 0, 100, 30));
+
+        jLabel15.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel15.setText("Home  >");
+        jPanel9.add(jLabel15, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 60, 30));
+
+        dashboard1.add(jPanel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 830, 30));
+
+        jLabel16.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel16.setText("Dashboard");
+        dashboard1.add(jLabel16, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        menuItem1.setBackground(new java.awt.Color(255, 204, 204));
+        menuItem1.setPreferredSize(new java.awt.Dimension(1050, 570));
+        menuItem1.setLayout(new java.awt.CardLayout());
+
+        jPanel33.setBackground(new java.awt.Color(204, 204, 255));
+        jPanel33.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel141.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel141.setText("Dashboard");
+        jPanel33.add(jLabel141, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        jPanel36.setBackground(new java.awt.Color(204, 204, 204));
+        jPanel36.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
+        jPanel36.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel18.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel18.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel18.setText("Dashboard  >");
+        jPanel36.add(jLabel18, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 0, 100, 30));
+
+        jLabel116.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel116.setText("Home  >");
+        jPanel36.add(jLabel116, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 60, 30));
+
+        jPanel33.add(jPanel36, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 60, 990, 30));
+
+        jPanel34.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel110.setBackground(new java.awt.Color(153, 51, 255));
+        jLabel110.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel110.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel110.setOpaque(true);
+        jPanel34.add(jLabel110, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel111.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel111.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel111.setText("VEHICLE");
+        jPanel34.add(jLabel111, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel112.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel112.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel112.setText("250");
+        jPanel34.add(jLabel112, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel35.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel113.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel113.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel113.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel113.setOpaque(true);
+        jPanel35.add(jLabel113, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel114.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel114.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel114.setText("TOTAL CASE");
+        jPanel35.add(jLabel114, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel115.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel115.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel115.setText("250");
+        jPanel35.add(jLabel115, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel34.add(jPanel35, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        jPanel33.add(jPanel34, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 230, 100));
+
+        jPanel37.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel117.setBackground(new java.awt.Color(234, 87, 55));
+        jLabel117.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel117.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel117.setOpaque(true);
+        jPanel37.add(jLabel117, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel118.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel118.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel118.setText("PENDING");
+        jPanel37.add(jLabel118, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel119.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel119.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel119.setText("250");
+        jPanel37.add(jLabel119, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel38.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel120.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel120.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel120.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel120.setOpaque(true);
+        jPanel38.add(jLabel120, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel121.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel121.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel121.setText("TOTAL CASE");
+        jPanel38.add(jLabel121, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel122.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel122.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel122.setText("250");
+        jPanel38.add(jLabel122, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel37.add(jPanel38, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        jPanel33.add(jPanel37, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 140, 230, 100));
+
+        jPanel39.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel123.setBackground(new java.awt.Color(0, 147, 87));
+        jLabel123.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel123.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel123.setOpaque(true);
+        jPanel39.add(jLabel123, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel124.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel124.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel124.setText("SOLVED");
+        jPanel39.add(jLabel124, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel125.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel125.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel125.setText("250");
+        jPanel39.add(jLabel125, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel40.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel126.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel126.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel126.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel126.setOpaque(true);
+        jPanel40.add(jLabel126, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel127.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel127.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel127.setText("TOTAL CASE");
+        jPanel40.add(jLabel127, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel128.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel128.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel128.setText("250");
+        jPanel40.add(jLabel128, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel39.add(jPanel40, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        jPanel33.add(jPanel39, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 140, 230, 100));
+
+        jPanel41.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel129.setBackground(new java.awt.Color(0, 174, 245));
+        jLabel129.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel129.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel129.setOpaque(true);
+        jPanel41.add(jLabel129, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel130.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel130.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel130.setText("TOTAL CASE");
+        jPanel41.add(jLabel130, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel131.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel131.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel131.setText("250");
+        jPanel41.add(jLabel131, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel42.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel132.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel132.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel132.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel132.setOpaque(true);
+        jPanel42.add(jLabel132, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel133.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel133.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel133.setText("TOTAL CASE");
+        jPanel42.add(jLabel133, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel134.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel134.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel134.setText("250");
+        jPanel42.add(jLabel134, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel41.add(jPanel42, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        jPanel33.add(jPanel41, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 140, 230, 100));
+
+        jPanel43.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel135.setBackground(new java.awt.Color(255, 0, 255));
+        jLabel135.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel135.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel135.setOpaque(true);
+        jPanel43.add(jLabel135, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel136.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel136.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel136.setText("GUNS");
+        jPanel43.add(jLabel136, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel137.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel137.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel137.setText("250");
+        jPanel43.add(jLabel137, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel44.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel138.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel138.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel138.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel138.setOpaque(true);
+        jPanel44.add(jLabel138, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel139.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel139.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel139.setText("TOTAL CASE");
+        jPanel44.add(jLabel139, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel140.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel140.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel140.setText("250");
+        jPanel44.add(jLabel140, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel43.add(jPanel44, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        jPanel33.add(jPanel43, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 350, 230, 100));
+
+        jPanel45.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel142.setBackground(new java.awt.Color(0, 204, 204));
+        jLabel142.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel142.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel142.setOpaque(true);
+        jPanel45.add(jLabel142, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel143.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel143.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel143.setText("POLICE");
+        jPanel45.add(jLabel143, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel144.setFont(new java.awt.Font("Segoe UI Historic", 1, 24)); // NOI18N
+        jLabel144.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel144.setText("250");
+        jPanel45.add(jLabel144, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel46.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel145.setBackground(new java.awt.Color(102, 204, 255));
+        jLabel145.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel145.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-case-66.png"))); // NOI18N
+        jLabel145.setOpaque(true);
+        jPanel46.add(jLabel145, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 120, 100));
+
+        jLabel146.setFont(new java.awt.Font("Segoe UI", 1, 16)); // NOI18N
+        jLabel146.setForeground(new java.awt.Color(102, 102, 102));
+        jLabel146.setText("TOTAL CASE");
+        jPanel46.add(jLabel146, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 10, -1, -1));
+
+        jLabel147.setFont(new java.awt.Font("Segoe UI Semibold", 1, 24)); // NOI18N
+        jLabel147.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
+        jLabel147.setText("250");
+        jPanel46.add(jLabel147, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 40, 80, 30));
+
+        jPanel45.add(jPanel46, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 109, 230, 100));
+
+        jPanel33.add(jPanel45, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 350, 230, 100));
+
+        jLabel148.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel148.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel148.setText("Version 1.0");
+        jPanel33.add(jLabel148, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 30, 234, 16));
+
+        menuItem1.add(jPanel33, "card2");
+
+        dashboard1.add(menuItem1, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 60, -1, 640));
+
+        menuBar.setBackground(new java.awt.Color(51, 51, 51));
+        menuBar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        userName12.setForeground(new java.awt.Color(255, 255, 255));
+        userName12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-sports-gun-24.png"))); // NOI18N
+        menuBar.add(userName12, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 400, -1, 50));
+
+        userName13.setForeground(new java.awt.Color(255, 255, 255));
+        userName13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Plaster.png"))); // NOI18N
+        menuBar.add(userName13, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 320, -1, 50));
+
+        userName14.setForeground(new java.awt.Color(255, 255, 255));
+        userName14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Vampire.png"))); // NOI18N
+        menuBar.add(userName14, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 240, -1, 50));
+
+        others3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        others3.setForeground(new java.awt.Color(255, 255, 255));
+        others3.setText("Others");
+        menuBar.add(others3, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 440, 160, 50));
+
+        activity1.setForeground(new java.awt.Color(51, 255, 0));
+        activity1.setText("Online");
+        menuBar.add(activity1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 50, -1, -1));
+
+        editProfile1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        editProfile1.setForeground(new java.awt.Color(255, 255, 255));
+        editProfile1.setText("Edit Your Profile");
+        menuBar.add(editProfile1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 490, 110, -1));
+
+        userName2.setForeground(new java.awt.Color(255, 255, 255));
+        userName2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Dashboard_1.png"))); // NOI18N
+        menuBar.add(userName2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 120, -1, 50));
+
+        criminalInfo1.setFont(new java.awt.Font("Segoe UI", 0, 17)); // NOI18N
+        criminalInfo1.setForeground(new java.awt.Color(255, 255, 255));
+        criminalInfo1.setText("Criminal Information");
+        criminalInfo1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                criminalInfo1MouseClicked(evt);
+            }
+        });
+        menuBar.add(criminalInfo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 240, 160, 50));
+
+        userName15.setForeground(new java.awt.Color(255, 255, 255));
+        userName15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Account card.png"))); // NOI18N
+        menuBar.add(userName15, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, -1, 50));
+
+        generalDiary1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        generalDiary1.setForeground(new java.awt.Color(255, 255, 255));
+        generalDiary1.setText("General Diary");
+        generalDiary1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                generalDiary1MouseClicked(evt);
+            }
+        });
+        menuBar.add(generalDiary1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 280, 160, 50));
+
+        others4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        others4.setForeground(new java.awt.Color(255, 255, 255));
+        others4.setText("Arms & Ammos");
+        others4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                others4MouseClicked(evt);
+            }
+        });
+        menuBar.add(others4, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 400, 160, 50));
+
+        userName16.setForeground(new java.awt.Color(255, 255, 255));
+        userName16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-police-car-24.png"))); // NOI18N
+        menuBar.add(userName16, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 360, -1, 50));
+
+        profileImg2.setForeground(new java.awt.Color(255, 255, 255));
+        profileImg2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-police-80.png"))); // NOI18N
+        menuBar.add(profileImg2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 0, 80, -1));
+
+        logOut1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        logOut1.setForeground(new java.awt.Color(255, 255, 255));
+        logOut1.setText("Log Out");
+        menuBar.add(logOut1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 530, 60, -1));
+
+        policeInfo1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        policeInfo1.setForeground(new java.awt.Color(255, 255, 255));
+        policeInfo1.setText("Police Information");
+        policeInfo1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                policeInfo1MouseClicked(evt);
+            }
+        });
+        menuBar.add(policeInfo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, 160, 50));
+
+        userName4.setForeground(new java.awt.Color(255, 255, 255));
+        userName4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-police-24.png"))); // NOI18N
+        menuBar.add(userName4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, 50));
+
+        others5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        others5.setForeground(new java.awt.Color(255, 255, 255));
+        others5.setText("Vehicle Information");
+        others5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                others5MouseClicked(evt);
+            }
+        });
+        others5.addInputMethodListener(new java.awt.event.InputMethodListener() {
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
+                others5CaretPositionChanged(evt);
+            }
+            public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
+            }
+        });
+        menuBar.add(others5, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 360, 160, 50));
+
+        dumInfo1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        dumInfo1.setForeground(new java.awt.Color(255, 255, 255));
+        dumInfo1.setText("Dumpyard");
+        dumInfo1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                dumInfo1MouseClicked(evt);
+            }
+        });
+        menuBar.add(dumInfo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 320, 160, 50));
+
+        userName17.setForeground(new java.awt.Color(255, 255, 255));
+        userName17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-modern-server-computer-stacked-on-each-other-24.png"))); // NOI18N
+        menuBar.add(userName17, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 440, -1, 50));
+
+        personalInfo1.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
+        personalInfo1.setForeground(new java.awt.Color(153, 153, 153));
+        personalInfo1.setText("Personal Information");
+        menuBar.add(personalInfo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 470, 150, -1));
+
+        userName18.setForeground(new java.awt.Color(255, 255, 255));
+        userName18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Book of record.png"))); // NOI18N
+        menuBar.add(userName18, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 200, -1, 50));
+
+        addNewAdmin1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        addNewAdmin1.setForeground(new java.awt.Color(255, 255, 255));
+        addNewAdmin1.setText("Add New Admin");
+        menuBar.add(addNewAdmin1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 510, 100, -1));
+
+        caseInfo1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        caseInfo1.setForeground(new java.awt.Color(255, 255, 255));
+        caseInfo1.setText("Case Information");
+        caseInfo1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                caseInfo1MouseClicked(evt);
+            }
+        });
+        menuBar.add(caseInfo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 200, 160, 50));
+
+        userName19.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        userName19.setForeground(new java.awt.Color(255, 255, 255));
+        userName19.setText("MinhajulIslam");
+        menuBar.add(userName19, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, -1, -1));
+
+        dash1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        dash1.setForeground(new java.awt.Color(255, 255, 255));
+        dash1.setText("Dashboard");
+        dash1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                dash1MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                dash1MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                dash1MouseExited(evt);
+            }
+        });
+        menuBar.add(dash1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 120, 160, 50));
+
+        dashboard1.add(menuBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 60, 270, 670));
+
+        titleBar.setBackground(new java.awt.Color(0, 51, 51));
+
+        javax.swing.GroupLayout titleBarLayout = new javax.swing.GroupLayout(titleBar);
+        titleBar.setLayout(titleBarLayout);
+        titleBarLayout.setHorizontalGroup(
+            titleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 1030, Short.MAX_VALUE)
+        );
+        titleBarLayout.setVerticalGroup(
+            titleBarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+
+        dashboard1.add(titleBar, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 0, 1030, 60));
+
+        logoSite.setBackground(new java.awt.Color(0, 51, 51));
+        logoSite.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel149.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel149.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel149.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel149.setText("Police Dashboard");
+        logoSite.add(jLabel149, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 10, 200, 30));
+
+        dashboard1.add(logoSite, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 270, 60));
+
+        jPanel1.add(dashboard1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 980, 640));
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -1636,14 +2613,18 @@ public class DashBoard2 extends javax.swing.JFrame {
         // TODO add your handling code here:
          System.out.println("police");
         
-        caseborad.setVisible(false);
-        criminalborad.setVisible(false);
-        gdboard.setVisible(false);
-        dumpboard.setVisible(false);
-        vehicleboard.setVisible(false);
-        armsboard.setVisible(false);
-        dashboard.setVisible(false);
-        policeboard.setVisible(true);
+         JDesktopPane jd = new JDesktopPane();
+         jd.removeAll();
+         JDPANE.setVisible(true);
+         
+//        caseborad.setVisible(false);
+//        criminalborad.setVisible(false);
+//        gdboard.setVisible(false);
+//        dumpboard.setVisible(false);
+//        vehicleboard.setVisible(false);
+//        armsboard.setVisible(false);
+//        dashboard.setVisible(false);
+//        policeboard.setVisible(true);
         
     }//GEN-LAST:event_policeInfoMouseClicked
 
@@ -1886,6 +2867,86 @@ caseborad.setVisible(false);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton32ActionPerformed
 
+    private void addPol3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addPol3ActionPerformed
+
+    }//GEN-LAST:event_addPol3ActionPerformed
+
+    private void jButton33ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton33ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton33ActionPerformed
+
+    private void jButton34ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton34ActionPerformed
+        // TODO add your handling code here:
+        findPolice fp = new findPolice();
+        fp.setVisible(true);
+    }//GEN-LAST:event_jButton34ActionPerformed
+
+    private void jButton35ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton35ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton35ActionPerformed
+
+    private void jButton36ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton36ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton36ActionPerformed
+
+    private void criminalInfo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_criminalInfo1MouseClicked
+        // TODO add your handling code here:
+
+    }//GEN-LAST:event_criminalInfo1MouseClicked
+
+    private void generalDiary1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_generalDiary1MouseClicked
+        // TODO add your handling code here:
+
+    }//GEN-LAST:event_generalDiary1MouseClicked
+
+    private void others4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_others4MouseClicked
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_others4MouseClicked
+
+    private void policeInfo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_policeInfo1MouseClicked
+        // TODO add your handling code here:
+
+        //        caseborad.setVisible(false);
+        //        criminalborad.setVisible(false);
+        //        gdboard.setVisible(false);
+        //        dumpboard.setVisible(false);
+        //        vehicleboard.setVisible(false);
+        //        armsboard.setVisible(false);
+        //        dashboard.setVisible(false);
+        //        policeboard.setVisible(true);
+    }//GEN-LAST:event_policeInfo1MouseClicked
+
+    private void others5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_others5MouseClicked
+        // TODO add your handling code here:
+
+    }//GEN-LAST:event_others5MouseClicked
+
+    private void others5CaretPositionChanged(java.awt.event.InputMethodEvent evt) {//GEN-FIRST:event_others5CaretPositionChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_others5CaretPositionChanged
+
+    private void dumInfo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dumInfo1MouseClicked
+        // TODO add your handling code here:
+
+    }//GEN-LAST:event_dumInfo1MouseClicked
+
+    private void caseInfo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_caseInfo1MouseClicked
+
+    }//GEN-LAST:event_caseInfo1MouseClicked
+
+    private void dash1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dash1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dash1MouseClicked
+
+    private void dash1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dash1MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dash1MouseEntered
+
+    private void dash1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dash1MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dash1MouseExited
+
     /**
      * @param args the command line arguments
      */
@@ -1923,24 +2984,35 @@ caseborad.setVisible(false);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JDesktopPane JDPANE;
     private javax.swing.JLabel activity;
+    private javax.swing.JLabel activity1;
     private javax.swing.JLabel addNewAdmin;
+    private javax.swing.JLabel addNewAdmin1;
     private javax.swing.JButton addPol;
     private javax.swing.JButton addPol1;
     private javax.swing.JButton addPol2;
+    private javax.swing.JButton addPol3;
     private javax.swing.JPanel armsboard;
     private javax.swing.JLabel caseInfo;
+    private javax.swing.JLabel caseInfo1;
     private javax.swing.JPanel caseborad;
     private javax.swing.JLabel comInfo;
     private javax.swing.JLabel criminalInfo;
+    private javax.swing.JLabel criminalInfo1;
     private javax.swing.JPanel criminalborad;
     private javax.swing.JLabel dash;
+    private javax.swing.JLabel dash1;
     private javax.swing.JPanel dashboard;
+    private javax.swing.JPanel dashboard1;
     private javax.swing.JLabel dumInfo;
+    private javax.swing.JLabel dumInfo1;
     private javax.swing.JPanel dumpboard;
     private javax.swing.JLabel editProfile;
+    private javax.swing.JLabel editProfile1;
     private javax.swing.JPanel gdboard;
     private javax.swing.JLabel generalDiary;
+    private javax.swing.JLabel generalDiary1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -1967,6 +3039,10 @@ caseborad.setVisible(false);
     private javax.swing.JButton jButton30;
     private javax.swing.JButton jButton31;
     private javax.swing.JButton jButton32;
+    private javax.swing.JButton jButton33;
+    private javax.swing.JButton jButton34;
+    private javax.swing.JButton jButton35;
+    private javax.swing.JButton jButton36;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton7;
@@ -1974,6 +3050,64 @@ caseborad.setVisible(false);
     private javax.swing.JButton jButton9;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel100;
+    private javax.swing.JLabel jLabel101;
+    private javax.swing.JLabel jLabel102;
+    private javax.swing.JLabel jLabel103;
+    private javax.swing.JLabel jLabel104;
+    private javax.swing.JLabel jLabel105;
+    private javax.swing.JLabel jLabel106;
+    private javax.swing.JLabel jLabel107;
+    private javax.swing.JLabel jLabel108;
+    private javax.swing.JLabel jLabel109;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel110;
+    private javax.swing.JLabel jLabel111;
+    private javax.swing.JLabel jLabel112;
+    private javax.swing.JLabel jLabel113;
+    private javax.swing.JLabel jLabel114;
+    private javax.swing.JLabel jLabel115;
+    private javax.swing.JLabel jLabel116;
+    private javax.swing.JLabel jLabel117;
+    private javax.swing.JLabel jLabel118;
+    private javax.swing.JLabel jLabel119;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel120;
+    private javax.swing.JLabel jLabel121;
+    private javax.swing.JLabel jLabel122;
+    private javax.swing.JLabel jLabel123;
+    private javax.swing.JLabel jLabel124;
+    private javax.swing.JLabel jLabel125;
+    private javax.swing.JLabel jLabel126;
+    private javax.swing.JLabel jLabel127;
+    private javax.swing.JLabel jLabel128;
+    private javax.swing.JLabel jLabel129;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel130;
+    private javax.swing.JLabel jLabel131;
+    private javax.swing.JLabel jLabel132;
+    private javax.swing.JLabel jLabel133;
+    private javax.swing.JLabel jLabel134;
+    private javax.swing.JLabel jLabel135;
+    private javax.swing.JLabel jLabel136;
+    private javax.swing.JLabel jLabel137;
+    private javax.swing.JLabel jLabel138;
+    private javax.swing.JLabel jLabel139;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel140;
+    private javax.swing.JLabel jLabel141;
+    private javax.swing.JLabel jLabel142;
+    private javax.swing.JLabel jLabel143;
+    private javax.swing.JLabel jLabel144;
+    private javax.swing.JLabel jLabel145;
+    private javax.swing.JLabel jLabel146;
+    private javax.swing.JLabel jLabel147;
+    private javax.swing.JLabel jLabel148;
+    private javax.swing.JLabel jLabel149;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
@@ -2037,7 +3171,32 @@ caseborad.setVisible(false);
     private javax.swing.JLabel jLabel73;
     private javax.swing.JLabel jLabel74;
     private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLabel jLabel90;
+    private javax.swing.JLabel jLabel91;
+    private javax.swing.JLabel jLabel92;
+    private javax.swing.JLabel jLabel93;
+    private javax.swing.JLabel jLabel94;
+    private javax.swing.JLabel jLabel95;
+    private javax.swing.JLabel jLabel96;
+    private javax.swing.JLabel jLabel97;
+    private javax.swing.JLabel jLabel98;
+    private javax.swing.JLabel jLabel99;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
@@ -2051,11 +3210,39 @@ caseborad.setVisible(false);
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
+    private javax.swing.JPanel jPanel25;
+    private javax.swing.JPanel jPanel26;
+    private javax.swing.JPanel jPanel27;
+    private javax.swing.JPanel jPanel28;
+    private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel30;
+    private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
+    private javax.swing.JPanel jPanel36;
+    private javax.swing.JPanel jPanel37;
+    private javax.swing.JPanel jPanel38;
+    private javax.swing.JPanel jPanel39;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel40;
+    private javax.swing.JPanel jPanel41;
+    private javax.swing.JPanel jPanel42;
+    private javax.swing.JPanel jPanel43;
+    private javax.swing.JPanel jPanel44;
+    private javax.swing.JPanel jPanel45;
+    private javax.swing.JPanel jPanel46;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
@@ -2079,22 +3266,44 @@ caseborad.setVisible(false);
     private javax.swing.JTable jTable8;
     private javax.swing.JTable jTable9;
     private javax.swing.JLabel logOut;
+    private javax.swing.JLabel logOut1;
+    private javax.swing.JPanel logoSite;
+    private javax.swing.JPanel menuBar;
     private javax.swing.JPanel menuItem;
+    private javax.swing.JPanel menuItem1;
     private javax.swing.JPanel menubar;
     private javax.swing.JLabel others;
     private javax.swing.JLabel others1;
     private javax.swing.JLabel others2;
+    private javax.swing.JLabel others3;
+    private javax.swing.JLabel others4;
+    private javax.swing.JLabel others5;
     private javax.swing.JPanel othersboard;
     private javax.swing.JLabel personalInfo;
+    private javax.swing.JLabel personalInfo1;
     private javax.swing.JLabel policeInfo;
+    private javax.swing.JLabel policeInfo1;
     private javax.swing.JPanel policeboard;
     private javax.swing.JPanel policeboard1;
+    private javax.swing.JPanel policeboard2;
     private javax.swing.JLabel profileImg1;
+    private javax.swing.JLabel profileImg2;
+    private javax.swing.JPanel titleBar;
     private javax.swing.JLabel userName;
     private javax.swing.JLabel userName1;
     private javax.swing.JLabel userName10;
     private javax.swing.JLabel userName11;
+    private javax.swing.JLabel userName12;
+    private javax.swing.JLabel userName13;
+    private javax.swing.JLabel userName14;
+    private javax.swing.JLabel userName15;
+    private javax.swing.JLabel userName16;
+    private javax.swing.JLabel userName17;
+    private javax.swing.JLabel userName18;
+    private javax.swing.JLabel userName19;
+    private javax.swing.JLabel userName2;
     private javax.swing.JLabel userName3;
+    private javax.swing.JLabel userName4;
     private javax.swing.JLabel userName5;
     private javax.swing.JLabel userName6;
     private javax.swing.JLabel userName7;

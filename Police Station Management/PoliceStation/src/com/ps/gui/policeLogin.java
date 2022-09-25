@@ -181,15 +181,14 @@ public class policeLogin extends javax.swing.JFrame {
         
         if(RoleSelection.getSelectedItem().equals("Police Super")){
              try {
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/police", "root", "root");
+                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/minhaj", "root", "root");
+                 System.out.println("unknow");
                 String sql = "select * from station_managers where role = 'super'";
                 PreparedStatement st = con.prepareStatement(sql);
                 ResultSet rs = st.executeQuery();
 
                while(rs.next()){
                    String sta =  rs.getString("user_name");
-                    System.out.println(sta);
-                
                 if(user.equalsIgnoreCase(sta)){
                     System.out.println("user name is valid");
                 }else{
@@ -200,7 +199,7 @@ public class policeLogin extends javax.swing.JFrame {
                 
                  
                 
-                
+                con.close();
                
                 
                 
