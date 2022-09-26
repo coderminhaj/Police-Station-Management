@@ -4,6 +4,8 @@
  */
 package com.ps.gui;
 
+import com.ps.common.IcommonDAO;
+import com.ps.util.dbConnection;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -17,7 +19,8 @@ import javax.swing.JOptionPane;
  *
  * @author Admin
  */
-public class policeLogin extends javax.swing.JFrame {
+public class policeLogin extends javax.swing.JFrame implements IcommonDAO{
+    
 
     /**
      * Creates new form policeLogin
@@ -25,6 +28,90 @@ public class policeLogin extends javax.swing.JFrame {
     public policeLogin() {
         initComponents();
         setLocationRelativeTo(null);
+    }
+    
+    
+    
+    
+    
+    @Override
+    public void loginVal() {     
+        String userBox = userName.getText();
+        String passBox = passInput.getText();
+        
+        try {
+              dbConnection con = new dbConnection();
+              PreparedStatement ps = con.dbConnect().prepareStatement("select * from login_details where role = 'super'");
+              
+        } catch (Exception e) {
+            JOptionPane.showMessageDialog(rootPane, "Exception from login Val Method");
+        }
+        
+        
+        
+        
+                
+        
+        if(RoleSelection.getSelectedItem().equals("Police Super")){
+             try {
+                 
+               dbConnection con = new dbConnection();
+               PreparedStatement ps = con.dbConnect().prepareStatement("select * from login_details where designation = 'super'");
+               ResultSet rs = ps.executeQuery();
+//               JOptionPane.showMessageDialog(rootPane, "alright");
+
+               while(rs.next()){
+                if(userBox.equalsIgnoreCase(rs.getString("user_name"))){
+                    try {
+                        PreparedStatement passV = con.dbConnect().prepareStatement("select password from login_details where user_name = ?");
+                         passV.setString(1, userName.getText());
+                        ResultSet rspassv = passV.executeQuery();
+                        System.out.println("before excep");
+                        System.out.println(passBox);
+                        if(passBox.equalsIgnoreCase(rspassv.getString("password"))){
+                        System.out.println("after excep");
+
+                            JOptionPane.showMessageDialog(rootPane, "Login Successfull and the pass is mathched");
+                            dispose();
+                            DashBoard2 db = new DashBoard2();
+                            db.setVisible(true);
+                            
+                        }else{
+                            JOptionPane.showMessageDialog(rootPane, "Password Is not Matched");
+                        }
+       
+                    } catch (Exception e) {
+                        JOptionPane.showMessageDialog(rootPane, "Exception Caught in method after pass validation");
+                        System.out.println(e);
+                    }
+
+                }else{
+                    JOptionPane.showMessageDialog(rootPane, "user Name is not valid");
+                }
+                   
+               }
+                 
+                
+            } catch (Exception e) {
+             JOptionPane.showMessageDialog(rootPane, "Exception Caught at the end of the method");
+                 System.out.println(e);
+
+            }
+
+
+            
+        }else{
+            JOptionPane jo = new JOptionPane();
+            jo.showMessageDialog(rootPane, "Not Selected Police ");
+           
+        }
+        
+        
+        
+        
+        
+        
+        
     }
 
     /**
@@ -48,7 +135,6 @@ public class policeLogin extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
         passInput = new javax.swing.JPasswordField();
         showPass = new javax.swing.JCheckBox();
         userName = new javax.swing.JTextField();
@@ -73,13 +159,13 @@ public class policeLogin extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("System");
-        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(210, 120, 180, 80));
+        jPanel2.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 120, 180, 80));
 
         jLabel4.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel4.setText("Police Station Management");
-        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 40, 600, 80));
+        jPanel2.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 600, 80));
 
         jPanel1.add(jPanel2);
 
@@ -135,12 +221,6 @@ public class policeLogin extends javax.swing.JFrame {
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/corporate-user-icon (1) (1).png"))); // NOI18N
         jPanel3.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 410, 35, 35));
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 0, 48)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/SeekPng.com_login-icon-png_1388103.png"))); // NOI18N
-        jPanel3.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 20, 380, 330));
-
         passInput.setMinimumSize(new java.awt.Dimension(64, 31));
         jPanel3.add(passInput, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 480, 230, 30));
 
@@ -177,53 +257,49 @@ public class policeLogin extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:    
-        String user = userName.getText();
         
-        if(RoleSelection.getSelectedItem().equals("Police Super")){
-             try {
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/police", "root", "root");
-                String sql = "select * from station_managers where role = 'super'";
-                PreparedStatement st = con.prepareStatement(sql);
-                ResultSet rs = st.executeQuery();
-
-               while(rs.next()){
-                   String sta =  rs.getString("user_name");
-                    System.out.println(sta);
-                
-                if(user.equalsIgnoreCase(sta)){
-                    System.out.println("user name is valid");
-                }else{
-                    System.out.println("user name is not valid");
-                }
-                   
-               }
-                
-                 
-                
-                
-               
-                
-                
-            } catch (Exception e) {
-                System.out.println(e);
-            }
-            
-          
-            
-            
-            
+        loginVal();
+        
+        
+//        if(RoleSelection.getSelectedItem().equals("Police Super")){
+//             try {
+//                 dbConnection con = new dbConnection();
+//                 String sql = "select * from station_managers where role = 'super'";
+//                 con.dbConnect().prepareStatement(sql);
+//                 
+//                 
+//                
+//                PreparedStatement st = con.prepareStatement(sql);
+//                ResultSet rs = st.executeQuery();
+//
+//               while(rs.next()){
+//                   String sta =  rs.getString("user_name");
+//                    System.out.println(sta);
+//                
+//                if(user.equalsIgnoreCase(sta)){
+//                    System.out.println("user name is valid");
+//                }else{
+//                    System.out.println("user name is not valid");
+//                }
+//                   
+//               }
+//                 
+//                
+//            } catch (Exception e) {
+//                System.out.println(e);
+//            }
+//
+////            this.dispose();
+////        DashBoard2 db = new DashBoard2();
+////        db.setVisible(true);
 //            
-//            this.dispose();
-//        DashBoard2 db = new DashBoard2();
-//        db.setVisible(true);
-            
-        }else{
-            JOptionPane jo = new JOptionPane();
-            jo.showMessageDialog(rootPane, "Not Selected Police ");
-           
-        }
-        
-        
+//        }else{
+//            JOptionPane jo = new JOptionPane();
+//            jo.showMessageDialog(rootPane, "Not Selected Police ");
+//           
+//        }
+//        
+//        
         
         
     }//GEN-LAST:event_jButton1ActionPerformed
@@ -299,7 +375,6 @@ public class policeLogin extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
@@ -309,4 +384,8 @@ public class policeLogin extends javax.swing.JFrame {
     private javax.swing.JCheckBox showPass;
     private javax.swing.JTextField userName;
     // End of variables declaration//GEN-END:variables
+
+    
+
+    
 }

@@ -208,6 +208,30 @@ CREATE TABLE `general_diary` (
 
 
 --
+-- Definition of table `login_details`
+--
+
+DROP TABLE IF EXISTS `login_details`;
+CREATE TABLE `login_details` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `police_id` varchar(45) DEFAULT NULL,
+  `user_name` varchar(45) DEFAULT NULL,
+  `password` varchar(45) DEFAULT NULL,
+  `email` varchar(45) DEFAULT NULL,
+  `designation` varchar(45) DEFAULT NULL,
+  `recovery_code` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `login_details`
+--
+
+/*!40000 ALTER TABLE `login_details` DISABLE KEYS */;
+/*!40000 ALTER TABLE `login_details` ENABLE KEYS */;
+
+
+--
 -- Definition of table `most_wanted`
 --
 
@@ -410,13 +434,16 @@ CREATE TABLE `station_managers` (
   `email` varchar(45) DEFAULT NULL,
   `role` varchar(45) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `station_managers`
 --
 
 /*!40000 ALTER TABLE `station_managers` DISABLE KEYS */;
+INSERT INTO `station_managers` (`id`,`police_id`,`first_name`,`last_name`,`department_code`,`department_name`,`user_name`,`password`,`email`,`role`) VALUES 
+ (1,101,'abul','hasan',10,'Management','a','b','abc@super.com','police_super'),
+ (2,101,'ashik','khan',20,'constable','z','x','sdfkj@mail.com','cons');
 /*!40000 ALTER TABLE `station_managers` ENABLE KEYS */;
 
 

@@ -1,5 +1,7 @@
 package com.ps.gui;
 
+import java.awt.Cursor;
+
 
 
 public class DashBoard2 extends javax.swing.JFrame {
@@ -25,6 +27,32 @@ public class DashBoard2 extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jPanel4 = new javax.swing.JPanel();
         jPanel1 = new javax.swing.JPanel();
+        kGradientPanel1 = new keeptoo.KGradientPanel();
+        userName12 = new javax.swing.JLabel();
+        dumInfo1 = new javax.swing.JLabel();
+        editProfile1 = new javax.swing.JLabel();
+        activity1 = new javax.swing.JLabel();
+        userName13 = new javax.swing.JLabel();
+        caseInfo1 = new javax.swing.JLabel();
+        others3 = new javax.swing.JLabel();
+        profileImg2 = new javax.swing.JLabel();
+        userName14 = new javax.swing.JLabel();
+        others4 = new javax.swing.JLabel();
+        others5 = new javax.swing.JLabel();
+        userName4 = new javax.swing.JLabel();
+        generalDiary1 = new javax.swing.JLabel();
+        userName2 = new javax.swing.JLabel();
+        userName15 = new javax.swing.JLabel();
+        criminalInfo1 = new javax.swing.JLabel();
+        policeInfo1 = new javax.swing.JLabel();
+        userName16 = new javax.swing.JLabel();
+        userName17 = new javax.swing.JLabel();
+        personalInfo1 = new javax.swing.JLabel();
+        addNewAdmin1 = new javax.swing.JLabel();
+        dash1 = new javax.swing.JLabel();
+        userName18 = new javax.swing.JLabel();
+        logOut1 = new javax.swing.JLabel();
+        userName19 = new javax.swing.JLabel();
         menubar = new javax.swing.JPanel();
         comInfo = new javax.swing.JLabel();
         userName = new javax.swing.JLabel();
@@ -53,6 +81,36 @@ public class DashBoard2 extends javax.swing.JFrame {
         userName10 = new javax.swing.JLabel();
         userName11 = new javax.swing.JLabel();
         menuItem = new javax.swing.JPanel();
+        policeboard = new javax.swing.JPanel();
+        policeboard1 = new javax.swing.JPanel();
+        jButton7 = new javax.swing.JButton();
+        jLabel6 = new javax.swing.JLabel();
+        jLabel19 = new javax.swing.JLabel();
+        addPol = new javax.swing.JButton();
+        jButton8 = new javax.swing.JButton();
+        jButton9 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
+        jButton31 = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
+        caseborad = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jButton5 = new javax.swing.JButton();
+        jLabel27 = new javax.swing.JLabel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        jTable6 = new javax.swing.JTable();
+        jLabel29 = new javax.swing.JLabel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        jTable7 = new javax.swing.JTable();
+        jLabel30 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTable8 = new javax.swing.JTable();
         dashboard = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -104,43 +162,6 @@ public class DashBoard2 extends javax.swing.JFrame {
         jLabel62 = new javax.swing.JLabel();
         jLabel63 = new javax.swing.JLabel();
         jLabel64 = new javax.swing.JLabel();
-        caseborad = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
-        jButton5 = new javax.swing.JButton();
-        jLabel27 = new javax.swing.JLabel();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        jTable6 = new javax.swing.JTable();
-        jLabel29 = new javax.swing.JLabel();
-        jScrollPane7 = new javax.swing.JScrollPane();
-        jTable7 = new javax.swing.JTable();
-        jLabel30 = new javax.swing.JLabel();
-        jScrollPane8 = new javax.swing.JScrollPane();
-        jTable8 = new javax.swing.JTable();
-        policeboard = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        addPol = new javax.swing.JButton();
-        jButton8 = new javax.swing.JButton();
-        jButton9 = new javax.swing.JButton();
-        jButton10 = new javax.swing.JButton();
-        jScrollPane2 = new javax.swing.JScrollPane();
-        jTable2 = new javax.swing.JTable();
-        policeboard1 = new javax.swing.JPanel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel75 = new javax.swing.JLabel();
-        addPol2 = new javax.swing.JButton();
-        jButton18 = new javax.swing.JButton();
-        jButton28 = new javax.swing.JButton();
-        jButton29 = new javax.swing.JButton();
-        jButton30 = new javax.swing.JButton();
-        jButton7 = new javax.swing.JButton();
-        jButton32 = new javax.swing.JButton();
-        jButton31 = new javax.swing.JButton();
         criminalborad = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
@@ -227,16 +248,187 @@ public class DashBoard2 extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Police Station Management");
-        setPreferredSize(new java.awt.Dimension(1300, 700));
         setResizable(false);
 
-        jPanel1.setBackground(new java.awt.Color(44, 133, 193));
+        jPanel1.setBackground(new java.awt.Color(21, 83, 112));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        menubar.setBackground(new java.awt.Color(51, 51, 51));
+        kGradientPanel1.setkEndColor(new java.awt.Color(51, 66, 74));
+        kGradientPanel1.setkStartColor(new java.awt.Color(52, 66, 73));
+        kGradientPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        userName12.setForeground(new java.awt.Color(255, 255, 255));
+        userName12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-modern-server-computer-stacked-on-each-other-24.png"))); // NOI18N
+        kGradientPanel1.add(userName12, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 430, -1, -1));
+
+        dumInfo1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        dumInfo1.setForeground(new java.awt.Color(255, 255, 255));
+        dumInfo1.setText("Dumpyard");
+        dumInfo1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                dumInfo1MouseClicked(evt);
+            }
+        });
+        kGradientPanel1.add(dumInfo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 310, 160, -1));
+
+        editProfile1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        editProfile1.setForeground(new java.awt.Color(255, 255, 255));
+        editProfile1.setText("Edit Your Profile");
+        kGradientPanel1.add(editProfile1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 480, 110, -1));
+
+        activity1.setForeground(new java.awt.Color(51, 255, 0));
+        activity1.setText("Online");
+        kGradientPanel1.add(activity1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 80, -1, -1));
+
+        userName13.setForeground(new java.awt.Color(255, 255, 255));
+        userName13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Account card.png"))); // NOI18N
+        kGradientPanel1.add(userName13, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, -1, -1));
+
+        caseInfo1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        caseInfo1.setForeground(new java.awt.Color(255, 255, 255));
+        caseInfo1.setText("Case Information");
+        caseInfo1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                caseInfo1MouseClicked(evt);
+            }
+        });
+        kGradientPanel1.add(caseInfo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 190, 160, -1));
+
+        others3.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        others3.setForeground(new java.awt.Color(255, 255, 255));
+        others3.setText("Vehicle Information");
+        others3.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                others3MouseClicked(evt);
+            }
+        });
+        others3.addInputMethodListener(new java.awt.event.InputMethodListener() {
+            public void caretPositionChanged(java.awt.event.InputMethodEvent evt) {
+                others3CaretPositionChanged(evt);
+            }
+            public void inputMethodTextChanged(java.awt.event.InputMethodEvent evt) {
+            }
+        });
+        kGradientPanel1.add(others3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 350, 160, -1));
+
+        profileImg2.setForeground(new java.awt.Color(255, 255, 255));
+        profileImg2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-user-80.png"))); // NOI18N
+        kGradientPanel1.add(profileImg2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 40, 80, 60));
+
+        userName14.setForeground(new java.awt.Color(255, 255, 255));
+        userName14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-sports-gun-24.png"))); // NOI18N
+        kGradientPanel1.add(userName14, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, -1, -1));
+
+        others4.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        others4.setForeground(new java.awt.Color(255, 255, 255));
+        others4.setText("Arms & Ammos");
+        others4.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                others4MouseClicked(evt);
+            }
+        });
+        kGradientPanel1.add(others4, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 160, -1));
+
+        others5.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        others5.setForeground(new java.awt.Color(255, 255, 255));
+        others5.setText("Others");
+        kGradientPanel1.add(others5, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 430, 160, -1));
+
+        userName4.setForeground(new java.awt.Color(255, 255, 255));
+        userName4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-police-24.png"))); // NOI18N
+        kGradientPanel1.add(userName4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 150, -1, -1));
+
+        generalDiary1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        generalDiary1.setForeground(new java.awt.Color(255, 255, 255));
+        generalDiary1.setText("General Diary");
+        generalDiary1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                generalDiary1MouseClicked(evt);
+            }
+        });
+        kGradientPanel1.add(generalDiary1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 270, 160, -1));
+
+        userName2.setForeground(new java.awt.Color(255, 255, 255));
+        userName2.setText("MinhajulIslam");
+        kGradientPanel1.add(userName2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 60, -1, -1));
+
+        userName15.setForeground(new java.awt.Color(255, 255, 255));
+        userName15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Plaster.png"))); // NOI18N
+        kGradientPanel1.add(userName15, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 310, -1, -1));
+
+        criminalInfo1.setFont(new java.awt.Font("Segoe UI", 0, 17)); // NOI18N
+        criminalInfo1.setForeground(new java.awt.Color(255, 255, 255));
+        criminalInfo1.setText("Criminal Information");
+        criminalInfo1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                criminalInfo1MouseClicked(evt);
+            }
+        });
+        kGradientPanel1.add(criminalInfo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 230, 160, -1));
+
+        policeInfo1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        policeInfo1.setForeground(new java.awt.Color(255, 255, 255));
+        policeInfo1.setText("Police Information");
+        policeInfo1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                policeInfo1MouseClicked(evt);
+            }
+        });
+        kGradientPanel1.add(policeInfo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 150, 160, -1));
+
+        userName16.setForeground(new java.awt.Color(255, 255, 255));
+        userName16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Dashboard_1.png"))); // NOI18N
+        kGradientPanel1.add(userName16, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
+
+        userName17.setForeground(new java.awt.Color(255, 255, 255));
+        userName17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Book of record.png"))); // NOI18N
+        kGradientPanel1.add(userName17, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 190, -1, -1));
+
+        personalInfo1.setFont(new java.awt.Font("Segoe UI", 0, 16)); // NOI18N
+        personalInfo1.setForeground(new java.awt.Color(153, 153, 153));
+        personalInfo1.setText("Personal Information");
+        kGradientPanel1.add(personalInfo1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 460, 150, -1));
+
+        addNewAdmin1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        addNewAdmin1.setForeground(new java.awt.Color(255, 255, 255));
+        addNewAdmin1.setText("Add New Admin");
+        kGradientPanel1.add(addNewAdmin1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 500, 100, -1));
+
+        dash1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        dash1.setForeground(new java.awt.Color(255, 255, 255));
+        dash1.setText("Dashboard");
+        dash1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                dash1MouseClicked(evt);
+            }
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                dash1MouseEntered(evt);
+            }
+            public void mouseExited(java.awt.event.MouseEvent evt) {
+                dash1MouseExited(evt);
+            }
+        });
+        kGradientPanel1.add(dash1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 110, 160, -1));
+
+        userName18.setForeground(new java.awt.Color(255, 255, 255));
+        userName18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/icons8-police-car-24.png"))); // NOI18N
+        kGradientPanel1.add(userName18, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 350, -1, -1));
+
+        logOut1.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
+        logOut1.setForeground(new java.awt.Color(255, 255, 255));
+        logOut1.setText("Log Out");
+        kGradientPanel1.add(logOut1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 520, 60, -1));
+
+        userName19.setForeground(new java.awt.Color(255, 255, 255));
+        userName19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/Vampire.png"))); // NOI18N
+        kGradientPanel1.add(userName19, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, -1, -1));
+
+        jPanel1.add(kGradientPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 30, 200, 670));
+
+        menubar.setBackground(new java.awt.Color(38, 50, 56));
         menubar.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        comInfo.setBackground(new java.awt.Color(44, 133, 193));
+        comInfo.setBackground(new java.awt.Color(21, 83, 112));
         comInfo.setFont(new java.awt.Font("Segoe UI Emoji", 0, 13)); // NOI18N
         comInfo.setForeground(new java.awt.Color(255, 255, 255));
         comInfo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -415,7 +607,301 @@ public class DashBoard2 extends javax.swing.JFrame {
         menuItem.setBackground(new java.awt.Color(204, 204, 204));
         menuItem.setLayout(new java.awt.CardLayout());
 
-        dashboard.setBackground(new java.awt.Color(234, 238, 243));
+        policeboard.setBackground(new java.awt.Color(234, 238, 243));
+        policeboard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        policeboard1.setBackground(new java.awt.Color(255, 204, 255));
+        policeboard1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton7.setText("Add Departments");
+        jButton7.setActionCommand("Close Case");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
+        policeboard1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 70, 130, 40));
+
+        policeboard.add(policeboard1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 1100, 520));
+
+        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel6.setText("Police Station Management");
+        policeboard.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 110, -1, -1));
+
+        jLabel19.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel19.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel19.setText("Version 1.0");
+        policeboard.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
+
+        addPol.setText("Add New Police");
+        addPol.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                addPolActionPerformed(evt);
+            }
+        });
+        policeboard.add(addPol, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
+
+        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
+        jButton8.setText("Find Police");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
+        policeboard.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
+
+        jButton9.setText("Case Solved");
+        jButton9.setActionCommand("Close Case");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
+        policeboard.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
+
+        jButton10.setText("Closed Case");
+        jButton10.setActionCommand("Close Case");
+        jButton10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton10ActionPerformed(evt);
+            }
+        });
+        policeboard.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
+
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Police ID", "Police Name", "Police Phone", "Superior", "Case Solved"
+            }
+        ));
+        jScrollPane2.setViewportView(jTable2);
+
+        policeboard.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 1100, 520));
+
+        jButton31.setText("Police Information Update");
+        jButton31.setActionCommand("Close Case");
+        jButton31.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton31ActionPerformed(evt);
+            }
+        });
+        policeboard.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
+
+        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel8.setText("Police Station Management");
+        policeboard.add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        menuItem.add(policeboard, "card4");
+
+        caseborad.setBackground(new java.awt.Color(234, 238, 243));
+        caseborad.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel4.setText("Police Station Management");
+        caseborad.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
+
+        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
+        jLabel5.setForeground(new java.awt.Color(153, 153, 153));
+        jLabel5.setText("Version 1.0");
+        caseborad.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
+
+        jButton1.setText("Case Update");
+        jButton1.setActionCommand("Close Case");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
+        caseborad.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
+
+        jButton2.setText("Add New Case");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        caseborad.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
+
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
+        jButton3.setText("Find Case");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
+        caseborad.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
+
+        jButton4.setText("Pending Case");
+        jButton4.setActionCommand("Close Case");
+        jButton4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton4ActionPerformed(evt);
+            }
+        });
+        caseborad.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
+
+        jButton5.setText("Closed Case");
+        jButton5.setActionCommand("Close Case");
+        jButton5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton5ActionPerformed(evt);
+            }
+        });
+        caseborad.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
+
+        jLabel27.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel27.setText("Case List:");
+        caseborad.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
+
+        jTable6.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane6.setViewportView(jTable6);
+
+        caseborad.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 90));
+
+        jLabel29.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel29.setText("Pending Case:");
+        caseborad.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, -1, -1));
+
+        jTable7.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane7.setViewportView(jTable7);
+
+        caseborad.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 830, 90));
+
+        jLabel30.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel30.setText("Closed Case:");
+        caseborad.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, -1, -1));
+
+        jTable8.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null},
+                {null, null, null, null, null}
+            },
+            new String [] {
+                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
+            }
+        ));
+        jScrollPane8.setViewportView(jTable8);
+
+        caseborad.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 420, 830, 90));
+
+        menuItem.add(caseborad, "card3");
+
+        dashboard.setBackground(new java.awt.Color(224, 242, 241));
         dashboard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
@@ -668,358 +1154,6 @@ public class DashBoard2 extends javax.swing.JFrame {
         dashboard.add(jPanel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 300, 230, 100));
 
         menuItem.add(dashboard, "card2");
-
-        caseborad.setBackground(new java.awt.Color(234, 238, 243));
-        caseborad.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel4.setText("Police Station Management");
-        caseborad.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
-
-        jLabel5.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel5.setText("Version 1.0");
-        caseborad.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
-
-        jButton1.setText("Case Update");
-        jButton1.setActionCommand("Close Case");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        caseborad.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
-
-        jButton2.setText("Add New Case");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        caseborad.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
-
-        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
-        jButton3.setText("Find Case");
-        jButton3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton3ActionPerformed(evt);
-            }
-        });
-        caseborad.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
-
-        jButton4.setText("Pending Case");
-        jButton4.setActionCommand("Close Case");
-        jButton4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton4ActionPerformed(evt);
-            }
-        });
-        caseborad.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
-
-        jButton5.setText("Closed Case");
-        jButton5.setActionCommand("Close Case");
-        jButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton5ActionPerformed(evt);
-            }
-        });
-        caseborad.add(jButton5, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
-
-        jLabel27.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel27.setText("Case List:");
-        caseborad.add(jLabel27, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, -1, -1));
-
-        jTable6.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String [] {
-                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
-            }
-        ));
-        jScrollPane6.setViewportView(jTable6);
-
-        caseborad.add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 830, 90));
-
-        jLabel29.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel29.setText("Pending Case:");
-        caseborad.add(jLabel29, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 260, -1, -1));
-
-        jTable7.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String [] {
-                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
-            }
-        ));
-        jScrollPane7.setViewportView(jTable7);
-
-        caseborad.add(jScrollPane7, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 290, 830, 90));
-
-        jLabel30.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel30.setText("Closed Case:");
-        caseborad.add(jLabel30, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, -1, -1));
-
-        jTable8.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String [] {
-                "Case ID", "Case Opened By", "Criminals", "Victims", "Case Taken By"
-            }
-        ));
-        jScrollPane8.setViewportView(jTable8);
-
-        caseborad.add(jScrollPane8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 420, 830, 90));
-
-        menuItem.add(caseborad, "card3");
-
-        policeboard.setBackground(new java.awt.Color(234, 238, 243));
-        policeboard.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel6.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel6.setText("Police Station Management");
-        policeboard.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
-
-        jLabel19.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel19.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel19.setText("Version 1.0");
-        policeboard.add(jLabel19, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
-
-        addPol.setText("Add New Police");
-        addPol.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                addPolActionPerformed(evt);
-            }
-        });
-        policeboard.add(addPol, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
-
-        jButton8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
-        jButton8.setText("Find Police");
-        jButton8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton8ActionPerformed(evt);
-            }
-        });
-        policeboard.add(jButton8, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
-
-        jButton9.setText("Case Solved");
-        jButton9.setActionCommand("Close Case");
-        jButton9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton9ActionPerformed(evt);
-            }
-        });
-        policeboard.add(jButton9, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
-
-        jButton10.setText("Closed Case");
-        jButton10.setActionCommand("Close Case");
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
-            }
-        });
-        policeboard.add(jButton10, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
-
-        jTable2.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String [] {
-                "Police ID", "Police Name", "Police Phone", "Superior", "Case Solved"
-            }
-        ));
-        jScrollPane2.setViewportView(jTable2);
-
-        policeboard.add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 150, 1100, 520));
-
-        policeboard1.setBackground(new java.awt.Color(234, 238, 243));
-        policeboard1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel7.setText("Police Station Management");
-        policeboard1.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(21, 21, -1, -1));
-
-        jLabel75.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
-        jLabel75.setForeground(new java.awt.Color(153, 153, 153));
-        jLabel75.setText("Version 1.0");
-        policeboard1.add(jLabel75, new org.netbeans.lib.awtextra.AbsoluteConstraints(318, 34, 234, 16));
-
-        addPol2.setText("Add New Police");
-        addPol2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                addPol2ActionPerformed(evt);
-            }
-        });
-        policeboard1.add(addPol2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 40));
-
-        jButton18.setText("Police Information Update");
-        jButton18.setActionCommand("Close Case");
-        jButton18.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton18ActionPerformed(evt);
-            }
-        });
-        policeboard1.add(jButton18, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
-
-        jButton28.setIcon(new javax.swing.ImageIcon(getClass().getResource("/icons/ecqlipse 2 - 48 32 16 system black/SEARCH_16x16-32.png"))); // NOI18N
-        jButton28.setText("Find Police");
-        jButton28.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton28ActionPerformed(evt);
-            }
-        });
-        policeboard1.add(jButton28, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 70, 130, 40));
-
-        jButton29.setText("Case Solved");
-        jButton29.setActionCommand("Close Case");
-        jButton29.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton29ActionPerformed(evt);
-            }
-        });
-        policeboard1.add(jButton29, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 70, 130, 40));
-
-        jButton30.setText("Closed Case");
-        jButton30.setActionCommand("Close Case");
-        jButton30.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton30ActionPerformed(evt);
-            }
-        });
-        policeboard1.add(jButton30, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 70, 130, 40));
-
-        jButton7.setText("Add Departments");
-        jButton7.setActionCommand("Close Case");
-        jButton7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton7ActionPerformed(evt);
-            }
-        });
-        policeboard1.add(jButton7, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 70, 130, 40));
-
-        jButton32.setText("Add Role");
-        jButton32.setActionCommand("Close Case");
-        jButton32.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton32ActionPerformed(evt);
-            }
-        });
-        policeboard1.add(jButton32, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 70, 130, 40));
-
-        policeboard.add(policeboard1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1100, 670));
-
-        jButton31.setText("Police Information Update");
-        jButton31.setActionCommand("Close Case");
-        jButton31.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton31ActionPerformed(evt);
-            }
-        });
-        policeboard.add(jButton31, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 70, 130, 40));
-
-        menuItem.add(policeboard, "card4");
 
         criminalborad.setBackground(new java.awt.Color(234, 238, 243));
         criminalborad.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -1730,6 +1864,7 @@ public class DashBoard2 extends javax.swing.JFrame {
 
     private void dashMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dashMouseEntered
 
+        setCursor(Cursor.HAND_CURSOR);
         
         
     }//GEN-LAST:event_dashMouseEntered
@@ -1834,30 +1969,6 @@ caseborad.setVisible(false);
         // TODO add your handling code here:
     }//GEN-LAST:event_others2MouseClicked
 
-    private void addPol2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addPol2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_addPol2ActionPerformed
-
-    private void jButton18ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton18ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton18ActionPerformed
-
-    private void jButton28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton28ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton28ActionPerformed
-
-    private void jButton29ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton29ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton29ActionPerformed
-
-    private void jButton30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton30ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton30ActionPerformed
-
-    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton7ActionPerformed
-
     private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton10ActionPerformed
@@ -1882,9 +1993,53 @@ caseborad.setVisible(false);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton31ActionPerformed
 
-    private void jButton32ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton32ActionPerformed
+    private void others4MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_others4MouseClicked
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton32ActionPerformed
+    }//GEN-LAST:event_others4MouseClicked
+
+    private void others3CaretPositionChanged(java.awt.event.InputMethodEvent evt) {//GEN-FIRST:event_others3CaretPositionChanged
+        // TODO add your handling code here:
+    }//GEN-LAST:event_others3CaretPositionChanged
+
+    private void others3MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_others3MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_others3MouseClicked
+
+    private void dumInfo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dumInfo1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dumInfo1MouseClicked
+
+    private void generalDiary1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_generalDiary1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_generalDiary1MouseClicked
+
+    private void criminalInfo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_criminalInfo1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_criminalInfo1MouseClicked
+
+    private void caseInfo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_caseInfo1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_caseInfo1MouseClicked
+
+    private void policeInfo1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_policeInfo1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_policeInfo1MouseClicked
+
+    private void dash1MouseExited(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dash1MouseExited
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dash1MouseExited
+
+    private void dash1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dash1MouseEntered
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dash1MouseEntered
+
+    private void dash1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_dash1MouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_dash1MouseClicked
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1924,23 +2079,30 @@ caseborad.setVisible(false);
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel activity;
+    private javax.swing.JLabel activity1;
     private javax.swing.JLabel addNewAdmin;
+    private javax.swing.JLabel addNewAdmin1;
     private javax.swing.JButton addPol;
     private javax.swing.JButton addPol1;
-    private javax.swing.JButton addPol2;
     private javax.swing.JPanel armsboard;
     private javax.swing.JLabel caseInfo;
+    private javax.swing.JLabel caseInfo1;
     private javax.swing.JPanel caseborad;
     private javax.swing.JLabel comInfo;
     private javax.swing.JLabel criminalInfo;
+    private javax.swing.JLabel criminalInfo1;
     private javax.swing.JPanel criminalborad;
     private javax.swing.JLabel dash;
+    private javax.swing.JLabel dash1;
     private javax.swing.JPanel dashboard;
     private javax.swing.JLabel dumInfo;
+    private javax.swing.JLabel dumInfo1;
     private javax.swing.JPanel dumpboard;
     private javax.swing.JLabel editProfile;
+    private javax.swing.JLabel editProfile1;
     private javax.swing.JPanel gdboard;
     private javax.swing.JLabel generalDiary;
+    private javax.swing.JLabel generalDiary1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -1950,7 +2112,6 @@ caseborad.setVisible(false);
     private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton17;
-    private javax.swing.JButton jButton18;
     private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
@@ -1961,12 +2122,8 @@ caseborad.setVisible(false);
     private javax.swing.JButton jButton25;
     private javax.swing.JButton jButton26;
     private javax.swing.JButton jButton27;
-    private javax.swing.JButton jButton28;
-    private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton30;
     private javax.swing.JButton jButton31;
-    private javax.swing.JButton jButton32;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton7;
@@ -2030,13 +2187,12 @@ caseborad.setVisible(false);
     private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel69;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel70;
     private javax.swing.JLabel jLabel71;
     private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel73;
     private javax.swing.JLabel jLabel74;
-    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
@@ -2078,23 +2234,41 @@ caseborad.setVisible(false);
     private javax.swing.JTable jTable7;
     private javax.swing.JTable jTable8;
     private javax.swing.JTable jTable9;
+    private keeptoo.KGradientPanel kGradientPanel1;
     private javax.swing.JLabel logOut;
+    private javax.swing.JLabel logOut1;
     private javax.swing.JPanel menuItem;
     private javax.swing.JPanel menubar;
     private javax.swing.JLabel others;
     private javax.swing.JLabel others1;
     private javax.swing.JLabel others2;
+    private javax.swing.JLabel others3;
+    private javax.swing.JLabel others4;
+    private javax.swing.JLabel others5;
     private javax.swing.JPanel othersboard;
     private javax.swing.JLabel personalInfo;
+    private javax.swing.JLabel personalInfo1;
     private javax.swing.JLabel policeInfo;
+    private javax.swing.JLabel policeInfo1;
     private javax.swing.JPanel policeboard;
     private javax.swing.JPanel policeboard1;
     private javax.swing.JLabel profileImg1;
+    private javax.swing.JLabel profileImg2;
     private javax.swing.JLabel userName;
     private javax.swing.JLabel userName1;
     private javax.swing.JLabel userName10;
     private javax.swing.JLabel userName11;
+    private javax.swing.JLabel userName12;
+    private javax.swing.JLabel userName13;
+    private javax.swing.JLabel userName14;
+    private javax.swing.JLabel userName15;
+    private javax.swing.JLabel userName16;
+    private javax.swing.JLabel userName17;
+    private javax.swing.JLabel userName18;
+    private javax.swing.JLabel userName19;
+    private javax.swing.JLabel userName2;
     private javax.swing.JLabel userName3;
+    private javax.swing.JLabel userName4;
     private javax.swing.JLabel userName5;
     private javax.swing.JLabel userName6;
     private javax.swing.JLabel userName7;
